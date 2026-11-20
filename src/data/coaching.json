@@ -1,0 +1,3225 @@
+{
+ "CHECKED": "November 2026",
+ "PARAMS": [
+  {
+   "k": "res",
+   "n": "Results",
+   "s": "Results"
+  },
+  {
+   "k": "fac",
+   "n": "Faculty & live classes",
+   "s": "Faculty"
+  },
+  {
+   "k": "rec",
+   "n": "Recorded content",
+   "s": "Recorded"
+  },
+  {
+   "k": "pra",
+   "n": "Practice",
+   "s": "Practice"
+  },
+  {
+   "k": "dou",
+   "n": "Doubt solving",
+   "s": "Doubts"
+  },
+  {
+   "k": "moc",
+   "n": "Mock tests",
+   "s": "Mocks"
+  },
+  {
+   "k": "app",
+   "n": "App & dashboard",
+   "s": "App"
+  },
+  {
+   "k": "con",
+   "n": "Content quality",
+   "s": "Content"
+  },
+  {
+   "k": "com",
+   "n": "Community",
+   "s": "Community"
+  },
+  {
+   "k": "men",
+   "n": "Mentorship",
+   "s": "Mentoring"
+  }
+ ],
+ "GLANCE": [
+  "CAT 2025 99+ count",
+  "Faculty scores",
+  "24×7 doubts",
+  "Practice count",
+  "Mock series listed",
+  "Mobile app",
+  "Student community",
+  "One-on-one mentoring",
+  "PYQ material"
+ ],
+ "CHANNELS": [
+  "Telegram",
+  "WhatsApp",
+  "Facebook",
+  "Forum",
+  "In-app feed",
+  "Reddit / LinkedIn"
+ ],
+ "BACKING": {
+  "audited": [
+   "Checked by a CA firm",
+   "#FFD60A"
+  ],
+  "named": [
+   "Toppers named, not checked",
+   "#5B7BFF"
+  ],
+  "partial": [
+   "Few names or no percentiles",
+   "#8A93A3"
+  ],
+  "none": [
+   "No CAT 2025 figure",
+   "#4A5160"
+  ]
+ },
+ "CLOSE": {
+  "closest": "Seen as closest to CAT",
+  "close": "Close to CAT level",
+  "little": "Not enough reviews yet",
+  "harder": "Harder than CAT",
+  "basic": "Basic, still new"
+ },
+ "INST": [
+  {
+   "id": "cl",
+   "name": "Career Launcher",
+   "short": "CL",
+   "code": "CL",
+   "dot": "#8FA2FF",
+   "stand": "Lots of students take its mocks; the VARC1000 practice book; the most daily and topic tests",
+   "watch": "No faculty percentiles published; its 99+ count fell in 2025, and one results figure does not add up; no app listed",
+   "claim": 390,
+   "claimTxt": "390+ (“still counting”)",
+   "backing": "partial",
+   "years": [
+    null,
+    520,
+    390
+   ],
+   "pct": [],
+   "facTop": "None published (it lists how many years they took CAT instead)",
+   "hours": {
+    "v": 350,
+    "hi": 400,
+    "txt": "350+ hrs (one CAT 2027 course says 400+)"
+   },
+   "rec": {
+    "kind": "videos",
+    "v": 280,
+    "txt": "280+ videos"
+   },
+   "practice": {
+    "v": 6750,
+    "lo": 5760,
+    "txt": "5,760–6,750+",
+    "scope": "Daily Dose + extra sets"
+   },
+   "doubt": {
+    "x247": true,
+    "resp": "Not stated (it says “instant”)",
+    "ch": "Batch Telegram group, an AI doubt solver and the centre",
+    "who": "Teachers, other students and AI"
+   },
+   "mocks": {
+    "full": 31,
+    "sect": 45,
+    "pkg": "CAT 2026 Test Series",
+    "close": "close"
+   },
+   "app": "Website only, with no app on its course pages",
+   "content": "140+ videos to watch before class, a Quant course for non-engineers and the RT99 workshop",
+   "pyq": "PYQ workshops",
+   "chan": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "mentor": {
+    "n": 4,
+    "txt": "4 sessions (CAT 2027 online)"
+   },
+   "voice": {
+    "p": "VARC1000 is the VARC practice book that Reddit users recommend most.",
+    "m": "Students say the printed LRDI and VARC material feels old."
+   },
+   "glance": [
+    1,
+    0,
+    1,
+    1,
+    1,
+    0,
+    1,
+    1,
+    1
+   ],
+   "sc": [
+    3,
+    4,
+    6.5,
+    6.5,
+    6.5,
+    9.5,
+    5.5,
+    6.5,
+    4,
+    7.5
+   ],
+   "oRaw": 5.95,
+   "o": 6
+  },
+  {
+   "id": "cr",
+   "name": "Cracku",
+   "short": "Cracku",
+   "code": "CR",
+   "dot": "#FFD60A",
+   "stand": "99+ count checked by a CA firm; the biggest question bank in one course; the cheapest mock series; 36 past papers",
+   "watch": "Live classes are new; doubts take about one working day; Android app only",
+   "claim": 584,
+   "claimTxt": "584",
+   "backing": "audited",
+   "years": [
+    510,
+    540,
+    584
+   ],
+   "pct": [
+    100,
+    99.97
+   ],
+   "facTop": "Maruti: 100 overall five times. Sayali: 99.97",
+   "hours": {
+    "v": null,
+    "txt": "2 hrs each weekday evening (7:30–9:30 PM)"
+   },
+   "rec": {
+    "kind": "videos",
+    "v": 1000,
+    "txt": "1,000+ videos"
+   },
+   "practice": {
+    "v": 22700,
+    "txt": "22,700+",
+    "scope": "course"
+   },
+   "doubt": {
+    "x247": false,
+    "resp": "About 1 working day",
+    "ch": "Comments under each lesson, plus Telegram and WhatsApp groups",
+    "who": "Faculty and CAT toppers"
+   },
+   "mocks": {
+    "full": 25,
+    "sect": 45,
+    "pkg": "DashCAT · ₹1,499",
+    "close": "harder"
+   },
+   "app": "Website and Android app, with Daily Targets, the Cracku Adda forum and practice that adapts to you",
+   "content": "A Foundation class, then an Advanced class, plus a Study Room sorted by difficulty",
+   "pyq": "36 past CAT papers and topic-wise PYQ books",
+   "chan": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "mentor": {
+    "n": null,
+    "txt": "Mentoring on phone, plus free Meet sessions you can book"
+   },
+   "voice": {
+    "p": "Daily Targets are its most-praised practice feature.",
+    "m": "Mocks are harder than CAT, which can hurt your confidence."
+   },
+   "glance": [
+    1,
+    1,
+    0,
+    1,
+    1,
+    0.5,
+    1,
+    1,
+    1
+   ],
+   "sc": [
+    10,
+    7.5,
+    9.5,
+    9,
+    6,
+    5.5,
+    8,
+    7,
+    10,
+    6
+   ],
+   "oRaw": 7.85,
+   "o": 7.9
+  },
+  {
+   "id": "eg",
+   "name": "Elites Grid",
+   "short": "Elites Grid",
+   "code": "EG",
+   "dot": "#F5F6F8",
+   "stand": "LRDI teaching is rated well; weaker in QA and VARC; the website looks old",
+   "watch": "Results are hard to check; no practice or mock counts published; students report buffering",
+   "claim": 112,
+   "claimTxt": "112",
+   "backing": "partial",
+   "years": [
+    null,
+    100,
+    112
+   ],
+   "pct": [
+    99.9
+   ],
+   "facTop": "Hunny: 99.9 overall. Others: not published",
+   "hours": {
+    "v": null,
+    "txt": "Classes every night, but hours not published"
+   },
+   "rec": {
+    "kind": "hours",
+    "v": 300,
+    "txt": "300+ hours"
+   },
+   "practice": {
+    "v": null,
+    "txt": "Not published",
+    "scope": ""
+   },
+   "doubt": {
+    "x247": true,
+    "resp": "Not stated (it says “instant”)",
+    "ch": "Doubt groups, an app forum and doubt sessions",
+    "who": "Faculty and mentors"
+   },
+   "mocks": {
+    "full": null,
+    "sect": null,
+    "pkg": "Not published",
+    "close": "basic"
+   },
+   "app": "Website and iOS/Android apps with offline downloads, but students report buffering",
+   "content": "A basics stage, then an advanced stage",
+   "pyq": "Not published",
+   "chan": [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   "mentor": {
+    "n": null,
+    "txt": "A personal mentor for each student, but no session count"
+   },
+   "voice": {
+    "p": "Hunny Malhotra (QA) and Gaurav Kapoor (LRDI) explain every step.",
+    "m": "The top complaints are slow replies, little structure and a syllabus that runs late."
+   },
+   "glance": [
+    1,
+    0.5,
+    1,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0
+   ],
+   "sc": [
+    4,
+    4.5,
+    5,
+    1.5,
+    6.5,
+    2,
+    6.5,
+    5.5,
+    3,
+    6
+   ],
+   "oRaw": 4.45,
+   "o": 4.5
+  },
+  {
+   "id": "im",
+   "name": "IMS",
+   "short": "IMS",
+   "code": "IM",
+   "dot": "#2346FF",
+   "stand": "99+ count checked by a CA firm; SimCATs feel closest to CAT; the most one-on-one mentoring",
+   "watch": "Its count includes test-series buyers and mentors; quality depends on your centre; the highest price",
+   "claim": 935,
+   "claimTxt": "935",
+   "backing": "audited",
+   "years": [
+    null,
+    null,
+    935
+   ],
+   "pct": [
+    100,
+    100
+   ],
+   "facTop": "Ehtesham: 100 overall. Pawan: QA 100. VARC leads: not published",
+   "hours": {
+    "v": null,
+    "txt": "Given as sessions: 90 (Focused) or 125+ (Extensive)"
+   },
+   "rec": {
+    "kind": "hours",
+    "v": 650,
+    "txt": "650+ hours"
+   },
+   "practice": {
+    "v": 7500,
+    "txt": "7,500+",
+    "scope": "course, with video solutions"
+   },
+   "doubt": {
+    "x247": false,
+    "resp": "Not stated",
+    "ch": "In class, on Telegram, at the centre and in mentoring sessions",
+    "who": "Mentors"
+   },
+   "mocks": {
+    "full": 30,
+    "sect": 30,
+    "pkg": "SimCAT Core",
+    "close": "closest"
+   },
+   "app": "myIMS 3.0 on desktop and app, where tests unlock in stages",
+   "content": "Videos before each live class, the CATapult Elite course and 40 masterclasses",
+   "pyq": "None listed",
+   "chan": [
+    1,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   "mentor": {
+    "n": 7,
+    "txt": "Up to 7 one-on-one (Live/Classroom 2026)"
+   },
+   "voice": {
+    "p": "SimCATs feel closest to the real CAT.",
+    "m": "Quality depends a lot on your centre."
+   },
+   "glance": [
+    1,
+    0.5,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    0
+   ],
+   "sc": [
+    7,
+    5.5,
+    8,
+    8.5,
+    5,
+    9.5,
+    7,
+    7,
+    5,
+    10
+   ],
+   "oRaw": 7.25,
+   "o": 7.3
+  },
+  {
+   "id": "iq",
+   "name": "iQuanta",
+   "short": "iQuanta",
+   "code": "IQ",
+   "dot": "#C7D0FF",
+   "stand": "99+ count published for three years; 24×7 doubt replies with a stated reply time; application classes; the most practice across its products",
+   "watch": "No outside firm has checked its results; practice is spread across several plans; older application-class videos",
+   "claim": 580,
+   "claimTxt": "580+ (some pages say 600+)",
+   "backing": "named",
+   "years": [
+    200,
+    500,
+    580
+   ],
+   "pct": [
+    100,
+    99.99,
+    99.93,
+    99.9,
+    99.9,
+    99.9,
+    99.5
+   ],
+   "facTop": "Raj: QA 100 six times. Kamal: QA 99.99. Abhishek: 99.93",
+   "hours": {
+    "v": 350,
+    "txt": "350+ hrs: QA 150+, LRDI 100+, VARC 100+"
+   },
+   "rec": {
+    "kind": "videos",
+    "v": 1500,
+    "txt": "1,500+ videos"
+   },
+   "practice": {
+    "v": 25500,
+    "txt": "25,500+",
+    "scope": "all products combined"
+   },
+   "doubt": {
+    "x247": true,
+    "resp": "Under 15 min (app page)",
+    "ch": "In the app, in class and in a public Facebook group",
+    "who": "Faculty and doubt team"
+   },
+   "mocks": {
+    "full": 35,
+    "sect": 45,
+    "pkg": "iCAT Mocks",
+    "close": "close"
+   },
+   "app": "Website and iOS/Android apps, with a new dashboard, AI mock analysis and an error tracker",
+   "content": "Starter courses in QA, VARC and LRDI for non-engineers, and a CAT-level marathon after each topic",
+   "pyq": "Topic-wise PYQs in app",
+   "chan": [
+    0,
+    1,
+    1,
+    0,
+    1,
+    0
+   ],
+   "mentor": {
+    "n": null,
+    "txt": "Personal Mentorship Batch for selected students"
+   },
+   "voice": {
+    "p": "Mocks feel close to the real CAT level.",
+    "m": "Older application-class videos look old next to the new ones."
+   },
+   "glance": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    0.5,
+    1
+   ],
+   "sc": [
+    6,
+    9.5,
+    9.5,
+    8.5,
+    9,
+    8,
+    9.5,
+    9,
+    9,
+    5.5
+   ],
+   "oRaw": 8.35,
+   "o": 8.4
+  },
+  {
+   "id": "pw",
+   "name": "PW MBA Wallah",
+   "short": "PW",
+   "code": "PW",
+   "dot": "#7A90FF",
+   "stand": "Low prices; teachers publish their exact scores; a video solution for every DPP",
+   "watch": "Only a few toppers named; no student community; few CAT reviews so far",
+   "claim": 30,
+   "claimTxt": "30+",
+   "backing": "partial",
+   "years": [
+    null,
+    null,
+    30
+   ],
+   "pct": [
+    100,
+    99.98,
+    99.97,
+    99.9
+   ],
+   "facTop": "Vikrant: VARC 100. Rahul: QA 99.98. Gourav: 99.97",
+   "hours": {
+    "v": 330,
+    "hi": 400,
+    "txt": "330+ hrs (Pioneer) and 400+ (Pro)"
+   },
+   "rec": {
+    "kind": "hours",
+    "v": 40,
+    "txt": "40+ hour foundation"
+   },
+   "practice": {
+    "v": 5000,
+    "hi": 6000,
+    "txt": "5,000–6,000+ DPPs",
+    "scope": "not clear if these are questions or sheets"
+   },
+   "doubt": {
+    "x247": true,
+    "resp": "Not stated (it says “fast”)",
+    "ch": "The Doubt Engine tool and live doubt classes",
+    "who": "Teachers who only solve doubts"
+   },
+   "mocks": {
+    "full": 30,
+    "sect": 40,
+    "pkg": "Online Test Pass",
+    "close": "little"
+   },
+   "app": "PW app and website, shared with PW’s other exams",
+   "content": "Starter Kit, then the Pro batch, then Rapid Revision",
+   "pyq": "7-year PYQ book (some batches)",
+   "chan": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "mentor": {
+    "n": 5,
+    "txt": "5 sessions (Rapid-Fire batch)"
+   },
+   "voice": {
+    "p": "A video solution comes with every DPP.",
+    "m": "Students say the mocks and practice don’t match CAT level, and support is slow."
+   },
+   "glance": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    1,
+    0.5
+   ],
+   "sc": [
+    4,
+    9,
+    4.5,
+    6,
+    7,
+    6,
+    6.5,
+    6,
+    0,
+    6
+   ],
+   "oRaw": 5.5,
+   "o": 5.5
+  },
+  {
+   "id": "ro",
+   "name": "Rodha",
+   "short": "Rodha",
+   "code": "RO",
+   "dot": "#6B7385",
+   "stand": "Teachers who scored 100 in a section; 105 sectionals; live classes with polls",
+   "watch": "Tests are seen as harder than CAT; long lectures; students report app glitches",
+   "claim": 150,
+   "claimTxt": "150",
+   "backing": "partial",
+   "years": [
+    null,
+    null,
+    150
+   ],
+   "pct": [
+    100,
+    100,
+    99.99
+   ],
+   "facTop": "Tarun: QADI 100. Abhishek: DILR 100. Neeraj: QA 99.99",
+   "hours": {
+    "v": null,
+    "txt": "2 classes a day, 7 days a week (from a 2024 batch review)"
+   },
+   "rec": {
+    "kind": "none",
+    "v": null,
+    "txt": "No count or hours given"
+   },
+   "practice": {
+    "v": 2000,
+    "txt": "2,000+",
+    "scope": "QA only (plus 300 LRDI sets, 400 RCs)"
+   },
+   "doubt": {
+    "x247": true,
+    "resp": "Not stated",
+    "ch": "The Rodha Buddy app and Google Meet sessions",
+    "who": "Mentors in the app, and teachers on Meet"
+   },
+   "mocks": {
+    "full": null,
+    "sect": null,
+    "pkg": "Not published",
+    "close": "harder"
+   },
+   "app": "Website and RODHA CAT app, but students report problems with offline use, audio and tests",
+   "content": "Its pages don’t describe the levels",
+   "pyq": "None listed",
+   "chan": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "mentor": {
+    "n": null,
+    "txt": "Rodha Panchayat group sessions with the teachers"
+   },
+   "voice": {
+    "p": "Live classes have polls and a doubt window, so students can take part.",
+    "m": "Tests are harder than CAT, and batches often finish the syllabus late."
+   },
+   "glance": [
+    1,
+    1,
+    1,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0
+   ],
+   "sc": [
+    3,
+    6,
+    2.5,
+    5,
+    6.5,
+    2.5,
+    4.5,
+    4,
+    0,
+    6.5
+   ],
+   "oRaw": 4.05,
+   "o": 4.1
+  },
+  {
+   "id": "ti",
+   "name": "T.I.M.E.",
+   "short": "T.I.M.E.",
+   "code": "TI",
+   "dot": "#A3AAB6",
+   "stand": "Well-liked printed study material; tests that get harder step by step; 2024 offers checked by a CA firm",
+   "watch": "No CAT 2025 figure; mocks seen as harder than CAT; weaker online courses",
+   "claim": null,
+   "claimTxt": "No CAT 2025 figure (reports 2024 offers)",
+   "backing": "none",
+   "years": [
+    null,
+    null,
+    null
+   ],
+   "pct": [],
+   "facTop": "None published",
+   "hours": {
+    "v": null,
+    "txt": "3 classes a week (Online-Flexi)"
+   },
+   "rec": {
+    "kind": "sessions",
+    "v": 180,
+    "txt": "180 sessions + 26 e-books"
+   },
+   "practice": {
+    "v": 9000,
+    "lo": 3500,
+    "txt": "3,500 Flexi · 9,000 live",
+    "scope": "live and classroom plans"
+   },
+   "doubt": {
+    "x247": false,
+    "resp": "Not stated",
+    "ch": "Email, chat, Telegram and the centre",
+    "who": "Faculty"
+   },
+   "mocks": {
+    "full": 30,
+    "sect": null,
+    "pkg": "AIMCAT Elite",
+    "close": "harder"
+   },
+   "app": "Student Home Page and a linked app, rated weaker for online study",
+   "content": "Module I covers the basics",
+   "pyq": "None listed",
+   "chan": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "mentor": {
+    "n": null,
+    "txt": "In person at centres, or by email and chat online"
+   },
+   "voice": {
+    "p": "Its AIMCAT mocks and Quant teaching are often praised.",
+    "m": "Teaching quality depends on the teacher, and students call the website old."
+   },
+   "glance": [
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    0.5,
+    0
+   ],
+   "sc": [
+    3.5,
+    2.5,
+    6.5,
+    5.5,
+    5.5,
+    5,
+    5.5,
+    5,
+    4,
+    6
+   ],
+   "oRaw": 4.9,
+   "o": 4.9
+  }
+ ],
+ "PIC": {
+  "cl": [
+   "Lots of mock takers, daily tests and a much-loved VARC book.",
+   "Illustration: rows of answer sheets, a daily test pad and an open reading book"
+  ],
+  "cr": [
+   "36 past papers, results checked by a CA firm, and daily practice.",
+   "Illustration: a stack of 36 past papers, an audit report with a seal and a practice tracker"
+  ],
+  "eg": [
+   "Its teaching shines most in logical reasoning.",
+   "Illustration: a logic-grid puzzle board, lettered blocks and a marker"
+  ],
+  "im": [
+   "One-on-one mentoring, and mocks seen as closest to CAT.",
+   "Illustration: two chairs at a mentoring table with a mock booklet and a session calendar"
+  ],
+  "iq": [
+   "Doubts answered at 2 AM, and practice stacked high.",
+   "Illustration: a phone showing a late-night doubt reply, a 24×7 cube and stacked workbooks"
+  ],
+  "pw": [
+   "Low prices, and a video solution for every practice sheet.",
+   "Illustration: practice sheets, a tablet playing a video solution, coins and a price tag"
+  ],
+  "ro": [
+   "Live classes with polls, 105 sectionals and teachers who scored 100.",
+   "Illustration: a laptop showing a live poll, a tabbed stack of sectional tests and a 100 block"
+  ],
+  "ti": [
+   "Printed modules, and tests that climb in difficulty.",
+   "Illustration: a stack of printed modules and four blocks rising in difficulty"
+  ]
+ },
+ "SHOTS": {
+  "iq": {
+   "src": "iQuanta’s own app promo images",
+   "kind": "phone",
+   "showcase": true,
+   "items": [
+    [
+     "Course home",
+     "Pick an exam, join the live class, switch between QA, LRDI and VARC, ask a doubt, and learn topic by topic. Name blurred."
+    ],
+    [
+     "Topic path",
+     "Each topic goes in order: videos before class, the live class, an application class, assignments and a practice session."
+    ],
+    [
+     "Concept + application classes",
+     "Each concept class is paired with an application class. The screen lists 120+ live classes and 150 application videos."
+    ],
+    [
+     "Application class",
+     "Students solve questions live during class and see how many others answered. Student names blurred."
+    ],
+    [
+     "Live classes",
+     "Past and upcoming classes, which you can filter by subject, topic and sub-topic. Names blurred."
+    ],
+    [
+     "Assignments",
+     "Practice modules by topic: 20 for LRDI, 40 for Quant and 14 for VARC. You can pick up where you left off."
+    ],
+    [
+     "Daily Target",
+     "A free test every day with a leaderboard and streaks. Student names blurred."
+    ],
+    [
+     "Quiz analysis",
+     "Your overall score, a percentile meter, your All India Rank and your percentile in each section."
+    ],
+    [
+     "Doubt solving",
+     "Teachers solve doubts 24×7. The screen says the average reply comes in under 8 minutes."
+    ],
+    [
+     "Doubt discussion",
+     "A student’s doubt with a photo of the book page and a reply in the thread. Student name blurred."
+    ],
+    [
+     "Community feed",
+     "The open CAT Preparation group, with discussions, doubts, news and featured live classes."
+    ],
+    [
+     "Speed Read",
+     "A tool to help you read faster for VARC. You choose the topic, speed, text size and number of words."
+    ]
+   ],
+   "extra": {
+    "title": "iCAT mocks and analysis",
+    "prefix": "m",
+    "kind": "web",
+    "items": [
+     [
+      "Error Tracker",
+      "Sorts each wrong answer by reason, such as a silly mistake, running out of time or falling for a trap answer, and shows the pattern in a chart. Student name blurred."
+     ],
+     [
+      "Goal Tracker (iRadar)",
+      "A radar chart compares your scored and target percentile in each section, and lists the B-schools you could get into at that level."
+     ],
+     [
+      "Mock Comparison",
+      "Puts your mocks side by side, and compares them with a 99 percentile benchmark and the average of 100 percentilers."
+     ],
+     [
+      "AI mock analysis",
+      "An AI-written report after each mock that explains where you lost marks in each section and what to fix first."
+     ],
+     [
+      "AI Mentor",
+      "A chat helper next to your mock analysis. You can ask about your score, your weak areas or a study plan. Student name blurred."
+     ],
+     [
+      "Learning gap detection",
+      "Shows your learning gaps by how much they cost you, the root causes of your mistakes, and suggested next steps by topic."
+     ],
+     [
+      "iCAT mock screen",
+      "The test screen, with section tabs, a timer and a question panel. iQuanta says its mocks follow the latest CAT pattern and level."
+     ]
+    ]
+   }
+  },
+  "cr": {
+   "src": "Cracku’s website",
+   "kind": "web",
+   "items": [
+    [
+     "Practice menu",
+     "Study Room by section, Daily Targets, Quant and Verbal Rush games, a Reflection Room and formula revision."
+    ],
+    [
+     "Study Room",
+     "Topic cards that show the difficulty level and how many questions and tests you have done."
+    ],
+    [
+     "Topic test",
+     "Timed tests of five questions, with buttons to report a problem, use a calculator or bookmark."
+    ],
+    [
+     "Free mock test",
+     "Full-length mock: VARC 24, LRDI 22 and Quant 22 questions, 40 minutes each."
+    ],
+    [
+     "Mock interface",
+     "Made to look like the real CAT screen, with a question panel and section tabs. Account name blurred."
+    ],
+    [
+     "Video library",
+     "Live classes, topic videos, PreCAT and revision videos, with your progress shown for each section."
+    ],
+    [
+     "Premium modules",
+     "You must join to unlock Quant Shortcuts and LRDI Basics. General Knowledge videos are coming soon."
+    ],
+    [
+     "Topic-wise learning",
+     "Notes, example sets, concept videos and concept tests for each topic."
+    ]
+   ]
+  },
+  "im": {
+   "src": "the myIMS student portal",
+   "kind": "web",
+   "items": [
+    [
+     "Mock test library",
+     "PreSimCATs and SimCATs for 2026, each two hours long. Finished tests are marked, and you can revise them."
+    ],
+    [
+     "SimCAT test screen",
+     "Set out like the real CAT screen, with section tabs, a question panel and the marking scheme. Student name and ID removed."
+    ],
+    [
+     "Test summary",
+     "As soon as the test ends, you see how many questions you attempted, got right, got wrong and skipped in each section."
+    ],
+    [
+     "Scorecard",
+     "Your score and percentile in each section, a predicted CAT percentile, and analysis by topic and by question."
+    ],
+    [
+     "Percentile mapper",
+     "The section and overall scores you need for each percentile."
+    ],
+    [
+     "Solution review",
+     "Every question with your answer, an “Analyse with AI” button, filters and bookmarks."
+    ],
+    [
+     "Video solutions",
+     "Statistics, text and video solutions for each mock question. Faculty face blurred."
+    ],
+    [
+     "Create your own quiz",
+     "Build a quiz from past CAT questions or IMS practice questions, by topic, difficulty and number of questions."
+    ]
+   ]
+  },
+  "pw": {
+   "src": "the PW website",
+   "kind": "web",
+   "items": [
+    [
+     "Batches page",
+     "CAT batches with the offer prices shown in November 2026: MBA Core 2027 ₹9,499, MBA Pro 2027 ₹14,999, MBA OMETs 2026 ₹1,999. Name and faculty photos blurred."
+    ],
+    [
+     "Mock test screen",
+     "Section tabs, a question panel, an on-screen keypad for typed answers and the marking scheme. Name blurred."
+    ],
+    [
+     "Lecture library",
+     "Topic lectures with notes and DPPs (daily practice problems) as PDFs and videos. You also earn XP points for watching. Faculty photos blurred."
+    ],
+    [
+     "Video solutions",
+     "A video walkthrough for each mock question."
+    ],
+    [
+     "Result summary",
+     "After each mock you see your score, predicted rank and a leaderboard, and you can retry the test or view solutions."
+    ],
+    [
+     "Mock instructions",
+     "120-minute tests with an on-screen calculator and a CAT-style question panel. Name blurred."
+    ]
+   ]
+  },
+  "eg": {
+   "src": "the Elites Grid web dashboard and desktop app",
+   "kind": "web",
+   "items": [
+    [
+     "Study Material",
+     "Folders by topic, such as Marathon Sessions, Past Year Papers, Geometry Study Room, VARC and Articles, each with a progress bar."
+    ],
+    [
+     "Mock test screen",
+     "Set out like the real CAT screen, with a question panel, a colour key and section tabs."
+    ],
+    [
+     "Live class",
+     "Classes are taught on a digital whiteboard inside the dashboard. Account name blurred."
+    ],
+    [
+     "Recorded Classes",
+     "Recordings grouped by series, such as Marathon Sessions and Algebra Live, with progress for each folder."
+    ],
+    [
+     "Test series (desktop app)",
+     "Lists 20 full mocks, 60 VARC tests, 29 VA Power Pack tests, 22 Hustler and 11 Knockout sectionals, 12 past papers and 103 OMET tests. A photo of the app screen."
+    ],
+    [
+     "My Courses",
+     "Each course you join (13 on this account) has its own end date and a Continue Learning button."
+    ],
+    [
+     "Class recording",
+     "A replay of a Zoom class on a digital whiteboard, with the live chat beside it. Faculty face and student names blurred."
+    ],
+    [
+     "Marathon recordings (desktop app)",
+     "Quant Mega Marathon sessions with date, length and time watched. A photo of the app screen."
+    ],
+    [
+     "Community Doubts",
+     "Students post a question with a screenshot, and faculty reply in the thread. Student name blurred."
+    ]
+   ]
+  },
+  "cl": {
+   "src": "the Career Launcher student portal",
+   "kind": "web",
+   "items": [
+    [
+     "Practice hub",
+     "Topic practice that adapts to your level (still in beta), topic tests, sectionals, mocks and bookmarks."
+    ],
+    [
+     "Mock schedule",
+     "CAT mocks with test dates, analysis dates and slot booking."
+    ],
+    [
+     "Topic practice that adapts",
+     "A meter that shows how strong you are in each section and topic. Account name blurred."
+    ],
+    [
+     "Ask a Doubt",
+     "Type or paste a question for an instant step-by-step solution."
+    ],
+    [
+     "VARC concept videos",
+     "Week-by-week lessons, each with a video and notes."
+    ]
+   ]
+  }
+ },
+ "USP": {
+  "iq": [
+   [
+    9,
+    "Doubts answered 24×7",
+    "Faculty answer doubts round the clock, and iQuanta is the only one of the eight to state a reply time.",
+    "images/usp-iq-9.jpg"
+   ],
+   [
+    3,
+    "Application classes",
+    "Every concept class is followed by an application class where students solve CAT questions live."
+   ],
+   [
+    7,
+    "Practice stacked high",
+    "25,500+ questions across its products, plus a free Daily Target test every day with a leaderboard."
+   ],
+   [
+    0,
+    "Results named for three years",
+    "580+ CAT 2025 99+ percentilers are listed by name, but no outside firm has checked the count."
+   ]
+  ],
+  "cr": [
+   [
+    5,
+    "Mocks built like the real CAT",
+    "The test screen looks like the CAT screen, and its 25-mock DashCAT series costs ₹1,499, the cheapest of the eight."
+   ],
+   [
+    2,
+    "The biggest course question bank",
+    "22,700+ questions in one course, sorted by topic with difficulty tags."
+   ],
+   [
+    1,
+    "Daily Targets",
+    "Reddit users praise its Daily Targets most, and it also has Quant and Verbal Rush practice games."
+   ],
+   [
+    0,
+    "Results checked by a CA firm",
+    "A CA firm checked its count of 584 CAT 2025 99+ percentilers, and it has 36 past CAT papers to practise."
+   ]
+  ],
+  "im": [
+   [
+    2,
+    "SimCATs seen as closest to CAT",
+    "Students say its SimCAT mocks are the closest to the real paper, and the test screen looks just like CAT."
+   ],
+   [
+    4,
+    "Analysis after every mock",
+    "You get your percentile in each section, a predicted CAT percentile, and a breakdown by topic and by question."
+   ],
+   [
+    7,
+    "Video solution for every mock question",
+    "Each question comes with statistics, a text solution and a video solution."
+   ],
+   [
+    0,
+    "Most one-on-one mentoring",
+    "Up to 7 sessions with an assigned mentor in its 2026 Live and Classroom courses."
+   ]
+  ],
+  "pw": [
+   [
+    1,
+    "Low prices",
+    "CAT 2027 batches cost ₹9,499 (MBA Core) and ₹14,999 (MBA Pro) at November 2026 offer prices."
+   ],
+   [
+    3,
+    "A video for every DPP",
+    "Each topic lecture comes with notes and daily practice sheets, and every DPP has a video solution."
+   ],
+   [
+    4,
+    "Video solutions for mocks",
+    "Every mock question has a video solution, and you get a predicted rank after each test."
+   ],
+   [
+    0,
+    "Faculty with published scores",
+    "Four lead teachers publish their CAT percentiles, from 99.9 to 100."
+   ]
+  ],
+  "eg": [
+   [
+    7,
+    "Teaching that explains every step",
+    "Students praise Hunny Malhotra (QA) and Gaurav Kapoor (LRDI) for explaining each step in their nightly live classes."
+   ],
+   [
+    5,
+    "A wide test series",
+    "The desktop app lists 20 full mocks, 33 sectionals, 60 VARC tests and 12 past papers."
+   ],
+   [
+    9,
+    "Faculty reply to doubts",
+    "Students post a question with a screenshot, and faculty reply in the thread."
+   ],
+   [
+    0,
+    "A personal mentor for each student",
+    "Every student gets their own mentor, but it does not say how many sessions you get."
+   ]
+  ],
+  "cl": [
+   [
+    2,
+    "A large mock test-taker base",
+    "31 full mocks and 45 sectionals. So many students take them that its predicted percentiles are trusted as a guide."
+   ],
+   [
+    3,
+    "Practice that adapts to you",
+    "A meter for each section and topic shows what you should practise next."
+   ],
+   [
+    1,
+    "Most daily and topic tests",
+    "Daily Dose, topic tests, sectionals and mocks sit in one practice area, with 5,760–6,750+ questions."
+   ],
+   [
+    0,
+    "VARC1000",
+    "The VARC practice book that Reddit users recommend most."
+   ]
+  ],
+  "ro": [
+   [
+    0,
+    "Faculty with top CAT scores",
+    "Its teachers have published their CAT scores, including 100 in some sections."
+   ],
+   [
+    0,
+    "105 sectional tests",
+    "It also has 2,000+ QA questions, 300 LRDI sets and 400 RCs."
+   ],
+   [
+    0,
+    "Live classes you can take part in",
+    "Students say live classes have polls and a doubt window, so they can take part."
+   ]
+  ],
+  "ti": [
+   [
+    0,
+    "Well-regarded printed modules",
+    "Students often name its printed study material as a strength."
+   ],
+   [
+    0,
+    "AIMCAT mocks",
+    "30 AIMCAT Elite mocks that get harder step by step. Students praise them, though many find them harder than CAT."
+   ],
+   [
+    0,
+    "Quant teaching",
+    "Students often praise its Quant teaching."
+   ],
+   [
+    0,
+    "2024 offers checked by a CA firm",
+    "A CA firm checked its 2024 IIM offers, but it gives no CAT 2025 99+ count."
+   ]
+  ]
+ },
+ "RESULTS_SHOTS": {
+  "eg": {
+   "lede": "Elites Grid claims 112 students scored 99+ percentile in CAT 2025. Its results page names 43 students, and every one of them is listed as an IIM Bangalore convert. Only one card shows a percentile.",
+   "items": [
+    [
+     "Top of the page",
+     "The top three and the first cards on the list. Every card says IIM Bangalore."
+    ],
+    [
+     "Middle of the list",
+     "Cards #5 to #20. Each is marked CAT 2025 and IIM Bangalore."
+    ],
+    [
+     "End of the list",
+     "The list stops at #43, and only the last card shows a percentile (100%ile)."
+    ]
+   ]
+  }
+ },
+ "REDDIT": {
+  "ro": {
+   "n": 7,
+   "when": "posted between August and October 2026",
+   "src": "r/CATpreparation",
+   "minus": [
+    [
+     "Tests and mocks harder than CAT",
+     5,
+     "Mocks and practice sets are much harder than CAT. Some students found this discouraging early in their preparation, and one said the LRDI sets looked nothing like past papers."
+    ],
+    [
+     "Syllabus finishes late",
+     4,
+     "One batch was told the syllabus would finish by September, but it ran late. Extra “Booster” classes were added close to the exam, so little time was left for practice."
+    ],
+    [
+     "Too deep for average students",
+     4,
+     "The content goes deeper than CAT needs, so students with average basics felt lost. One said it suits students who are already strong."
+    ],
+    [
+     "Long classes, hard with a job",
+     3,
+     "Live classes of 2.5 to 3 hours were hard to fit around work."
+    ],
+    [
+     "Gaps in CAT-style practice",
+     2,
+     "Students must do past papers on their own, there is little practice at forming equations, and students called the VARC part weak."
+    ],
+    [
+     "Slow support",
+     2,
+     "One student waited months for solutions to a question PDF they uploaded, and another felt their feedback was ignored."
+    ],
+    [
+     "Faculty changes",
+     1,
+     "One student found it hard when teachers kept changing."
+    ]
+   ],
+   "plus": [
+    [
+     "Free YouTube lectures",
+     2,
+     "Two students recommended the free YouTube playlist, but as a choice instead of the paid course."
+    ],
+    [
+     "Fun teaching style",
+     1,
+     "One student found the teaching fun."
+    ],
+    [
+     "Suits strong students",
+     1,
+     "One said it works for students who are already near the top."
+    ]
+   ],
+   "shots": [
+    [
+     "Comment, about 3 months old",
+     "Calls it maths coaching, not CAT coaching. Past papers are left to students, sets are harder than CAT, and support did not reply for months."
+    ],
+    [
+     "Comment, about 1 month old",
+     "An R6-batch student says the syllabus promised by September wasn’t finished, and “Booster” classes were added late."
+    ],
+    [
+     "Comment, about 2 months old",
+     "Says it suits students who are already strong. Topics are not finished on time, and mocks feel scary early on."
+    ],
+    [
+     "Post",
+     "A long review that mentions confusing depth, 2.5–3 hour classes, discouraging mocks, changing teachers and a slow syllabus."
+    ],
+    [
+     "Three replies, about 3 months old",
+     "Says it is hard to manage with a job, the content is confusing, and they felt lost even with good basics."
+    ]
+   ]
+  },
+  "ti": {
+   "n": 10,
+   "when": "posted between 2023 and 2026, 7 of them in the past year",
+   "src": "Reddit",
+   "minus": [
+    [
+     "Teaching depends on the teacher",
+     5,
+     "Several said only some teachers were good, usually in Quant. Others called the teachers weak or careless."
+    ],
+    [
+     "Old, unreliable website",
+     2,
+     "A classroom student said the site has kept crashing since January, and a 99.5 percentiler called it very outdated."
+    ],
+    [
+     "VARC and DILR teaching weaker",
+     2,
+     "Students called VARC too basic and general, and one found better DILR and VARC help on YouTube."
+    ],
+    [
+     "Less suited to beginners",
+     2,
+     "One student told beginners not to join, and another felt teachers mostly help students who are already doing well."
+    ],
+    [
+     "Slow response to problems",
+     2,
+     "Complaints are sent to an email address and nothing gets fixed. One student said teachers forgot sessions they had planned."
+    ],
+    [
+     "Mocks easier than recent CATs",
+     1,
+     "A 99.5 percentiler found the QA and DILR mocks much easier than CAT 2025."
+    ]
+   ],
+   "plus": [
+    [
+     "AIMCAT mocks worth taking",
+     5,
+     "Students recommend the mocks even when they don’t like the course. Two comments from about 3 years ago found them the closest to that year’s CAT."
+    ],
+    [
+     "Strong Quant teaching",
+     3,
+     "Three students praised the Quant teaching, and two of them named one teacher."
+    ],
+    [
+     "Good material and questions",
+     1,
+     "One said the material covers most types of past-paper questions, and the questions are good."
+    ],
+    [
+     "Interview preparation",
+     1,
+     "One found the low-cost GDPI preparation, with 7–8 mock interviews, worth the money."
+    ]
+   ],
+   "shots": [
+    [
+     "Post, about 2 months old",
+     "A Bengaluru classroom student says the website has kept crashing since January and complaints go nowhere. They suggest taking only the mocks."
+    ],
+    [
+     "Thread, about 3 months old",
+     "A 99.5 percentiler found the website out of date and the mocks much easier than CAT 2025."
+    ],
+    [
+     "Three comments, about 7 months old",
+     "Praises one Quant teacher, but did not feel the rest was worth it, and found better DILR and VARC help on YouTube."
+    ],
+    [
+     "Comment, about 8 months old",
+     "Says teachers missed planned sessions and did not check whether students understood."
+    ],
+    [
+     "Comment, about 9 months old",
+     "A classroom student found the Quant teachers very good, LRDI okay and VARC too basic, and rates the mocks 10/10."
+    ],
+    [
+     "Comment, about a year old",
+     "An online CAT 2025 student says the teachers fell short, but the material and questions are good. It suits students who already know the basics."
+    ],
+    [
+     "Comment, about 3 years old",
+     "AIMCAT mocks felt closest to that year’s CAT, and GDPI prep with 7–8 mock interviews was worth it."
+    ],
+    [
+     "Comment, about 3 years old",
+     "AIMCATs felt too hard during prep but turned out closest to CAT 2023."
+    ],
+    [
+     "Comment, about 3 years old",
+     "Regrets not taking AIMCATs seriously, and says they prepare you for the real exam."
+    ]
+   ]
+  },
+  "eg": {
+   "n": 14,
+   "when": "posted over roughly the past two years",
+   "src": "Reddit",
+   "minus": [
+    [
+     "Slow or no replies to students",
+     5,
+     "Students say messages to teachers often go unanswered, especially after low marks, and that mentoring ignores average students. Doubt replies in the app can take more than a day and often just say to watch the recording. One found a reply rude."
+    ],
+    [
+     "Little structure or practice",
+     5,
+     "Students found the course loosely planned. They mention too few practice questions per topic, repeated questions, practice PDFs held back, PYQs left to the end, and no tips on saving time or choosing questions."
+    ],
+    [
+     "Syllabus runs late, then piles up",
+     4,
+     "In one batch that began in April, much of Quant, including Geometry, was still pending in late July. Students describe long catch-up sessions, an overloaded November, and being told to finish topics from recordings."
+    ],
+    [
+     "Weak VARC teaching",
+     4,
+     "Four students were unhappy with VARC. One said it is hard to learn English when it is taught in Hindi, and another stopped going to VARC classes."
+    ],
+    [
+     "App and live-class glitches",
+     3,
+     "Students describe buffering even on fast internet, videos that pause or close on their own, repeated Zoom log-ins and a live chat that is rarely open. One said the app team blamed their internet."
+    ],
+    [
+     "Would not recommend it",
+     3,
+     "Three said they regret joining or would not recommend it."
+    ],
+    [
+     "Long, slow classes",
+     2,
+     "Two found the classes long and slow to sit through, and one now mostly studies alone."
+    ],
+    [
+     "Old material, hard for non-engineers",
+     1,
+     "One student found the material and videos old, and Geometry too hard to finish as a non-engineer. They also felt the XAT course was not worth the money."
+    ]
+   ],
+   "plus": [
+    [
+     "Good teaching",
+     3,
+     "Three students praised the teaching even while criticising the course. One liked Hunny Malhotra’s classes, one said he works hard, and one said the way they teach is great."
+    ]
+   ],
+   "shots": [
+    [
+     "Five comments, less than a day old",
+     "In a batch that began in April, much of Quant was still not done by late July, practice PDFs were held back and the live chat was rarely open. Others say doubt replies take over a day, Geometry is still pending, and they stopped going to VARC classes."
+    ],
+    [
+     "Thread, about 1 day old",
+     "One student found it hard to learn English when VARC is taught in Hindi. Another says November was overloaded, classes are long and slow, and question PDFs are not shared in advance."
+    ],
+    [
+     "Comment, less than a day old",
+     "A student from last year says the teaching did not work for them. Basic sets took up a lot of class time, the rest was left to recordings, and there was too much material to get through."
+    ],
+    [
+     "Two comments, about 2 weeks old",
+     "One student says the course lacks structure and mentoring, PYQs came at the very end and VARC was poor, though they liked Hunny Malhotra’s classes. Another finds the classes hard to sit through and mostly studies alone."
+    ],
+    [
+     "Two comments, about 1 month old",
+     "One says mentoring ignores average students. Another says messages often go unanswered, found one reply rude, and would not recommend the course."
+    ],
+    [
+     "Comment, about 1 month old",
+     "Says a teacher did not reply to their message after they scored low marks, so they stopped asking for guidance."
+    ],
+    [
+     "Post, about 2 years old",
+     "Written when the course moved from a website to an app in 2024. It describes Zoom videos that buffer, pause or close on their own, repeated log-ins, and an app team that blamed the student’s internet."
+    ]
+   ]
+  },
+  "pw": {
+   "n": 8,
+   "when": "posted between about 7 months and 2 years ago",
+   "src": "Reddit",
+   "minus": [
+    [
+     "Mocks and practice don’t match CAT",
+     3,
+     "Students disagree on whether they are too easy or too hard, but agree they are not at CAT level. One scored about 40 in PW’s VARC sectionals but only about 22 in other coachings’ tests. Another found the full mocks far harder than past papers, with even the top scorer getting 40–60 out of 204. A third called the mocks the worst."
+    ],
+    [
+     "Would not recommend it",
+     3,
+     "Three said they regret joining, would not recommend it, or told others not to choose it for the low price alone."
+    ],
+    [
+     "Some teachers only average",
+     3,
+     "Students rated some teachers as average or slow. One found an RC teacher easily distracted by the live chat, and another did not like the DILR teachers’ attitude."
+    ],
+    [
+     "Slow or no support",
+     2,
+     "One student paid extra for one-on-one mentoring, but the mentor never joined the session, and a support ticket got no answer for 3 weeks. Another said calls about the app or other problems go unanswered."
+    ],
+    [
+     "Classes cancelled, then a packed schedule",
+     1,
+     "Many classes were cancelled when the batch began, then moved into 5–6 classes a week, which was hard to manage with a job."
+    ],
+    [
+     "Mistakes in DPP questions",
+     1,
+     "One student kept finding DPP questions where the solution assumed something the question didn’t say."
+    ],
+    [
+     "Few students take the mocks",
+     1,
+     "Far fewer students take PW mocks than CL or T.I.M.E. mocks, so your rank means less, and the top score shown may not be a topper’s."
+    ],
+    [
+     "OMET and interview prep not tailored",
+     1,
+     "One said the OMET course uses the same kind of questions for every exam, with no separate plan for each, and called the GDPI preparation poor."
+    ],
+    [
+     "Slow book delivery",
+     1,
+     "Printed books took about 3 weeks to arrive."
+    ],
+    [
+     "Doubts about online praise",
+     1,
+     "One commenter believes Rahul Bathla is a good marketer who posts fake posts and comments to praise himself. This is their opinion, and we could not check it."
+    ]
+   ],
+   "plus": [
+    [
+     "Strong Quant teaching",
+     3,
+     "Three students praised the Quant teachers. One managed 10 QA attempts at 90–100% accuracy just from Rahul Bathla’s free YouTube lessons on arithmetic and algebra."
+    ],
+    [
+     "Some other teachers liked",
+     3,
+     "Students liked some VARC and DILR teachers too. One found the VA teacher’s tips very helpful, and another recommended the DILR teacher for beginners."
+    ]
+   ],
+   "shots": [
+    [
+     "Post, about 10 months old",
+     "An MBA Pro 2026 student says many classes were cancelled at the start, then packed into 5–6 a week. They liked both Quant teachers, found mistakes in DPP questions, and say the paid one-on-one mentor never joined. They would not recommend it."
+    ],
+    [
+     "Post, about 2 years old",
+     "A student who left their job for CAT liked most of the teachers, but found the DPPs and sectionals much easier than other coachings’ tests. They went back to studying on their own and advise others not to choose on price alone."
+    ],
+    [
+     "Post, about 1 year old",
+     "A student finds PW mocks much harder than past papers, says even the top scorer gets 40–60 out of 204, and feels low after each mock."
+    ],
+    [
+     "Thread, about 1 year old",
+     "Says far fewer students take PW mocks than CL or T.I.M.E. mocks, and the top score shown may not be a topper’s. A reply points out that most students take IMS mocks."
+    ],
+    [
+     "Comment, about 7 months old",
+     "Says the OMET course has no separate plan for each exam, calls the mocks and GDPI preparation the worst, and says calls about problems go unanswered."
+    ],
+    [
+     "Comment, about 1 year old",
+     "Praises Rahul Bathla’s free YouTube Quant lessons and recommends the DILR teacher for beginners, though other teachers seemed average. This student did not join the paid batch."
+    ],
+    [
+     "Comment, about 10 months old",
+     "Replying to a question about PW’s books, a student says delivery took about 3 weeks."
+    ],
+    [
+     "Comment, about 8 months old",
+     "Calls Rahul Bathla a good marketer, and says he keeps posting fake posts and comments to praise himself. This is the commenter’s opinion, which we could not check."
+    ]
+   ]
+  },
+  "im": {
+   "n": 6,
+   "when": "posted about 6 to 10 months ago",
+   "src": "Reddit",
+   "minus": [
+    [
+     "Teaching is weak or depends on your centre",
+     3,
+     "One student called the teaching the worst if you really want to learn, and another said the teachers are not that great. A classroom student said your experience depends on the teachers at your centre."
+    ],
+    [
+     "Not worth the money",
+     3,
+     "Three felt they did not get their money’s worth. Two paid ₹23,000 and ₹30,000, and one said free YouTube videos and practice papers online would do."
+    ],
+    [
+     "Less practice than expected",
+     1,
+     "A student who joined the self-learning program found about 30 Quant questions per topic and fewer than 100 DILR sets, far less than they expected. They were told more would be added over time, which they say was not mentioned before they paid, and the fee was not refundable."
+    ],
+    [
+     "Weak explanations",
+     1,
+     "One student found the VARC explanations hard to accept, which hurt their confidence. They said Quant solutions jump to the answer without showing how to get there, and questions were either very easy or very hard."
+    ],
+    [
+     "SimCAT percentile far below CAT",
+     1,
+     "The same student kept scoring about 70 percentile in SimCATs, then spent the last month on past papers and got 96 in CAT."
+    ],
+    [
+     "No follow-up after you pay",
+     1,
+     "One student got messages every day before paying, but now says no one checks on their progress or attendance, and their doubts go unanswered."
+    ],
+    [
+     "Sectionals not good",
+     1,
+     "One student liked the full mocks but called the sectional tests bad."
+    ]
+   ],
+   "plus": [
+    [
+     "Mocks worth taking",
+     3,
+     "Three students rate the mocks highly, even when they criticise the course. One suggested taking only the mocks and learning elsewhere."
+    ],
+    [
+     "Useful material and online resources",
+     2,
+     "One called the study material top notch, and a classroom student found the online resources really useful."
+    ]
+   ],
+   "shots": [
+    [
+     "Post, about 10 months old (part)",
+     "A student who scored 96 percentile joined the self-learning program after the exam. They expected far more practice than they found, and the fee was not refundable."
+    ],
+    [
+     "Comment, about 10 months old",
+     "Paid ₹30,000 and would not recommend the coaching. Scored about 70 percentile in SimCATs but 96 in CAT after a month of past papers. Found the VARC and Quant explanations weak, and the DILR sets okay."
+    ],
+    [
+     "Comment, about 6 months old",
+     "A current student says IMS is not worth the money. They got daily messages before paying, but now no one follows up or answers their doubts."
+    ],
+    [
+     "Comment, about 6 months old",
+     "Calls the study material and mocks top notch but the sectionals bad, and the teachers not that great. Suggests asking for a trial class first."
+    ],
+    [
+     "Comment, about 6 months old",
+     "Says it is the worst if you want to learn, and suggests taking only the mocks and studying elsewhere."
+    ],
+    [
+     "Comment, about 6 months old",
+     "A classroom student says your experience depends on the teachers at your centre, but the online resources are really useful."
+    ]
+   ]
+  },
+  "cl": {
+   "n": 4,
+   "when": "posted between a few days and about 1 year ago",
+   "src": "Reddit",
+   "minus": [
+    [
+     "VA questions confusing and unlike CAT",
+     2,
+     "Two students said their VARC scores drop in CL mocks. VA questions, especially para summaries, have options that are nearly the same. One student who scores 45+ in VARC in other mocks had not got a single VA question right in CL’s."
+    ],
+    [
+     "Wrong or confusing solutions",
+     1,
+     "One student found several wrong questions and solutions in the test series, mostly in DILR, with explanations that made no sense and question wording that was hard to follow."
+    ],
+    [
+     "Poor DILR videos",
+     1,
+     "One student called the DILR videos poor and cheaply made. They felt only Gejo sir’s VARC videos are made with care."
+    ]
+   ],
+   "plus": [
+    [
+     "QA, LRDI and RC at a good level",
+     2,
+     "One student found the QA and LRDI sections at a good level, and another said the RCs are fine."
+    ],
+    [
+     "Fun VARC videos",
+     1,
+     "One student said Gejo sir makes his videos fun to watch."
+    ]
+   ],
+   "shots": [
+    [
+     "Post, about 6 months old",
+     "A student who switched from IMS to the CL test series found several wrong questions and solutions, mostly in DILR, and question wording that was hard to follow."
+    ],
+    [
+     "Post, about 1 year old",
+     "Finds the QA and LRDI sections at a good level, but the verbal questions confusing. Scores 45+ in VARC in other mocks but had not got a VA question right in CL’s."
+    ],
+    [
+     "Comment, about 1 year old",
+     "Their accuracy drops in CL mocks. The RCs are fine, but VA questions, especially para summaries, are unlike CAT, with options that are nearly the same."
+    ],
+    [
+     "Comment, a few days old",
+     "Calls the DILR videos poor and cheaply made. Only Gejo sir’s videos are fun to watch, and the other two sections feel like they are made just for the sake of it."
+    ]
+   ]
+  },
+  "cr": {
+   "n": 6,
+   "when": "posted between about 1 month and 2 years ago",
+   "src": "Reddit",
+   "minus": [
+    [
+     "VARC answers feel random",
+     2,
+     "Two students found the reasoning behind VARC answers hard to accept, in Daily Targets, DashCATs and sectionals. One usually scores 98–99 percentile in VARC in AIMCATs and SimCATs, and another felt some passages were written by AI."
+    ],
+    [
+     "Teaching sticks to formulas",
+     2,
+     "Two students found the teaching formula-heavy. One said that in the advanced Profit and Loss class, problems are solved the long way with formulas instead of faster, logical methods."
+    ],
+    [
+     "Hectic course load",
+     1,
+     "A student studying for a master’s degree found it hard to keep up with over 2.5 hours of lectures a day, plus past questions to practise."
+    ],
+    [
+     "Little support",
+     1,
+     "One student called it very average with little support, and good only if you are self-motivated."
+    ],
+    [
+     "Not for beginners",
+     1,
+     "One student felt the course is not beginner friendly."
+    ]
+   ],
+   "plus": [
+    [
+     "Mocks and topic tests",
+     2,
+     "Two students praised the testing. One called the mocks great and suggested buying Cracku just for them, and another liked having tests for every topic with video solutions."
+    ],
+    [
+     "Questions at a high level",
+     1,
+     "One student said the questions they practise and learn from are at a high level, which helps in CAT."
+    ],
+    [
+     "Daily Targets somewhat useful",
+     1,
+     "One student found the Daily Targets somewhat useful, apart from the VARC questions."
+    ]
+   ],
+   "shots": [
+    [
+     "Post, about 2 months old",
+     "Bought Daily Targets and found them somewhat useful, but the VARC answers seemed random, even though this student usually scores 98–99 percentile in VARC in AIMCATs and SimCATs."
+    ],
+    [
+     "Post, about 1 month old",
+     "Finds the reasoning behind VARC answers in DashCATs and sectionals poor, and feels some passages were written by AI."
+    ],
+    [
+     "Post, about 4 months old",
+     "A non-engineer doing a master’s degree finds the course hectic, with over 2.5 hours of lectures a day plus past questions to practise."
+    ],
+    [
+     "Comment, about 6 months old",
+     "Likes the high level of questions, the tests for every topic and the video solutions, but finds the teaching sticks to formulas instead of faster, logical methods."
+    ],
+    [
+     "Comment, about 2 years old",
+     "Calls the mocks great but says the course is not beginner friendly and the teaching is formula-heavy. Suggests buying Cracku only for the mocks."
+    ],
+    [
+     "Comment, about 1 year old",
+     "Calls it very average with little support, and good only if you are self-motivated."
+    ]
+   ]
+  },
+  "iq": {
+   "n": 4,
+   "when": "posted between a few days and about 2 years ago",
+   "src": "Reddit",
+   "minus": [],
+   "plus": [
+    [
+     "iCAT mocks feel balanced",
+     2,
+     "Two students rated the iCAT mocks well. One called them good and very balanced, and another said the scorecard works like CAT, where a hard paper means a lower score can still give a high percentile."
+    ],
+    [
+     "Clear teaching and engaging classes",
+     1,
+     "One online student said the teachers explain concepts clearly, and the live concept classes and application classes keep you engaged."
+    ],
+    [
+     "Fast doubt solving",
+     1,
+     "The same student said doubts get solved very fast, thanks to the active student community."
+    ],
+    [
+     "Criticism seen as rival marketing",
+     1,
+     "One commenter believes there is nothing wrong with iQuanta, and that the negative talk about it on Reddit comes from a small number of Elites Grid and Rodha marketing accounts. This is their opinion, and we could not check it."
+    ]
+   ],
+   "shots": [
+    [
+     "Comment, about 1 year old",
+     "An online student says the teachers explain concepts clearly, doubts get solved fast through the active community, and the live concept and application classes keep you engaged. For mocks, they suggest adding SimCATs too."
+    ],
+    [
+     "Post, about 2 weeks old",
+     "A student preparing on their own shares an iCAT mock scorecard and asks whether the mocks are a reliable guide, since DILR can be hard."
+    ],
+    [
+     "Reply, about 2 weeks old",
+     "Answering that post, a student says the iCAT mocks are good and very balanced."
+    ],
+    [
+     "Comment, a few days old",
+     "Written in Hinglish. Says the scorecard is helpful: when most questions are moderate or hard, a lower score can still give a high percentile, which is also how CAT works."
+    ],
+    [
+     "Comment, about 2 years old",
+     "Says there is nothing wrong with iQuanta, and believes the negative talk comes from a small number of Elites Grid and Rodha marketing accounts. It suggests comparing new posts about each to see this. This is the commenter’s opinion, which we could not check."
+    ]
+   ]
+  }
+ },
+ "GLANCE_NOTE": {
+  "cr-5": "Android only",
+  "eg-1": "Only Hunny Malhotra’s score is published",
+  "im-1": "The VARC teachers’ scores are not published",
+  "iq-7": "Personal Mentorship Batch for selected students",
+  "pw-8": "7-year PYQ book in some batches",
+  "ti-7": "In person at centres, or by email and chat online"
+ },
+ "RUB": {
+  "res": [
+   {
+    "l": "CAT 2025 99+ count published",
+    "max": 2,
+    "lv": [
+     [
+      2,
+      "Published"
+     ],
+     [
+      0,
+      "Not published"
+     ]
+    ],
+    "v": {
+     "cl": 0,
+     "cr": 0,
+     "eg": 0,
+     "im": 0,
+     "iq": 0,
+     "pw": 0,
+     "ro": 0,
+     "ti": 1
+    }
+   },
+   {
+    "l": "Checked by an outside firm",
+    "max": 3,
+    "lv": [
+     [
+      3,
+      "CAT 2025 count checked by a CA firm"
+     ],
+     [
+      1.5,
+      "Only an older figure was checked"
+     ],
+     [
+      0,
+      "Not checked by an outside firm"
+     ]
+    ],
+    "v": {
+     "cl": 2,
+     "cr": 0,
+     "eg": 2,
+     "im": 0,
+     "iq": 2,
+     "pw": 2,
+     "ro": 2,
+     "ti": 1
+    }
+   },
+   {
+    "l": "Track record",
+    "max": 2,
+    "lv": [
+     [
+      2,
+      "Counts for 2023, 2024 and 2025"
+     ],
+     [
+      1,
+      "Two years published"
+     ],
+     [
+      0,
+      "One year or fewer"
+     ]
+    ],
+    "v": {
+     "cl": 1,
+     "cr": 0,
+     "eg": 1,
+     "im": 2,
+     "iq": 0,
+     "pw": 2,
+     "ro": 2,
+     "ti": 2
+    }
+   },
+   {
+    "l": "Claim matches the named toppers",
+    "max": 3,
+    "lv": [
+     [
+      3,
+      "Toppers named with proof, and no gaps found"
+     ],
+     [
+      2,
+      "A small doubt raised"
+     ],
+     [
+      1,
+      "A big gap between the claim and the names"
+     ],
+     [
+      0,
+      "A published figure does not add up"
+     ]
+    ],
+    "v": {
+     "cl": 3,
+     "cr": 0,
+     "eg": 2,
+     "im": 1,
+     "iq": 1,
+     "pw": 1,
+     "ro": 2,
+     "ti": 1
+    }
+   }
+  ],
+  "fac": [
+   {
+    "l": "Lead faculty with published scores",
+    "max": 3,
+    "lv": [
+     [
+      3,
+      "All or nearly all"
+     ],
+     [
+      2,
+      "About half or more"
+     ],
+     [
+      1,
+      "Fewer than half"
+     ],
+     [
+      0,
+      "None published"
+     ]
+    ],
+    "v": {
+     "cl": 3,
+     "cr": 0,
+     "eg": 2,
+     "im": 1,
+     "iq": 0,
+     "pw": 0,
+     "ro": 1,
+     "ti": 3
+    }
+   },
+   {
+    "l": "Live hours published",
+    "max": 3,
+    "lv": [
+     [
+      3,
+      "Course total in hours"
+     ],
+     [
+      2,
+      "Counted in sessions"
+     ],
+     [
+      1.5,
+      "Weekly schedule only"
+     ],
+     [
+      0.5,
+      "Not published"
+     ]
+    ],
+    "v": {
+     "cl": 0,
+     "cr": 2,
+     "eg": 3,
+     "im": 1,
+     "iq": 0,
+     "pw": 0,
+     "ro": 2,
+     "ti": 2
+    }
+   },
+   {
+    "l": "Who teaches",
+    "max": 2,
+    "lv": [
+     [
+      2,
+      "The same named teachers teach the batch"
+     ],
+     [
+      0.5,
+      "Varies by centre or batch"
+     ]
+    ],
+    "v": {
+     "cl": 1,
+     "cr": 0,
+     "eg": 0,
+     "im": 1,
+     "iq": 0,
+     "pw": 0,
+     "ro": 0,
+     "ti": 1
+    }
+   },
+   {
+    "l": "What reviewers say",
+    "max": 2,
+    "lv": [
+     [
+      2,
+      "Clearly positive"
+     ],
+     [
+      1.5,
+      "Some positive"
+     ],
+     [
+      1,
+      "Mixed, or few reviews"
+     ],
+     [
+      0.5,
+      "Some negative"
+     ]
+    ],
+    "v": {
+     "cl": 3,
+     "cr": 2,
+     "eg": 2,
+     "im": 2,
+     "iq": 1,
+     "pw": 2,
+     "ro": 3,
+     "ti": 3
+    }
+   }
+  ],
+  "rec": [
+   {
+    "l": "Library size",
+    "max": 5,
+    "lv": [
+     [
+      5,
+      "Large: 600+ hours or 1,000+ videos"
+     ],
+     [
+      3.5,
+      "Medium: 150+ hours, videos or sessions"
+     ],
+     [
+      2,
+      "Small: under 150"
+     ],
+     [
+      1,
+      "Not published"
+     ]
+    ],
+    "v": {
+     "cl": 1,
+     "cr": 0,
+     "eg": 1,
+     "im": 0,
+     "iq": 0,
+     "pw": 2,
+     "ro": 3,
+     "ti": 1
+    }
+   },
+   {
+    "l": "Guided study path",
+    "max": 5,
+    "lv": [
+     [
+      5,
+      "Built into a step-by-step path"
+     ],
+     [
+      3,
+      "A library to browse"
+     ],
+     [
+      2.5,
+      "Foundation course plus recordings"
+     ],
+     [
+      2,
+      "Only recordings of live classes"
+     ]
+    ],
+    "v": {
+     "cl": 1,
+     "cr": 0,
+     "eg": 3,
+     "im": 1,
+     "iq": 0,
+     "pw": 2,
+     "ro": 3,
+     "ti": 1
+    }
+   },
+   {
+    "l": "Warning",
+    "max": 0,
+    "lv": [
+     [
+      0,
+      "None"
+     ],
+     [
+      -0.5,
+      "A warning raised"
+     ]
+    ],
+    "v": {
+     "cl": 0,
+     "cr": 1,
+     "eg": 1,
+     "im": 0,
+     "iq": 1,
+     "pw": 0,
+     "ro": 1,
+     "ti": 0
+    }
+   }
+  ],
+  "pra": [
+   {
+    "l": "Question bank size",
+    "max": 5,
+    "lv": [
+     [
+      5,
+      "20,000+"
+     ],
+     [
+      3.5,
+      "7,000–19,999"
+     ],
+     [
+      3,
+      "5,000–6,999"
+     ],
+     [
+      2,
+      "Under 5,000"
+     ],
+     [
+      0,
+      "Not published"
+     ]
+    ],
+    "v": {
+     "cl": 2,
+     "cr": 0,
+     "eg": 4,
+     "im": 1,
+     "iq": 0,
+     "pw": 2,
+     "ro": 3,
+     "ti": 1
+    }
+   },
+   {
+    "l": "Clear count",
+    "max": 0,
+    "lv": [
+     [
+      0,
+      "One course, clear count"
+     ],
+     [
+      -0.5,
+      "Mixed count, or totals don’t match"
+     ]
+    ],
+    "v": {
+     "cl": 0,
+     "cr": 1,
+     "eg": 0,
+     "im": 0,
+     "iq": 1,
+     "pw": 1,
+     "ro": 0,
+     "ti": 0
+    }
+   },
+   {
+    "l": "Video solutions",
+    "max": 2,
+    "lv": [
+     [
+      2,
+      "Every question"
+     ],
+     [
+      1.5,
+      "Most practice"
+     ],
+     [
+      1,
+      "Part of the bank"
+     ],
+     [
+      0,
+      "Not stated"
+     ]
+    ],
+    "v": {
+     "cl": 2,
+     "cr": 1,
+     "eg": 3,
+     "im": 0,
+     "iq": 1,
+     "pw": 0,
+     "ro": 1,
+     "ti": 3
+    }
+   },
+   {
+    "l": "Structure and difficulty",
+    "max": 3,
+    "lv": [
+     [
+      3,
+      "Graded by level and set at CAT level"
+     ],
+     [
+      2.5,
+      "Built in stages, or the most daily and topic tests"
+     ],
+     [
+      2,
+      "Clear steps up, but harder than CAT"
+     ],
+     [
+      1.5,
+      "Lots of questions, but harder or not graded"
+     ]
+    ],
+    "v": {
+     "cl": 1,
+     "cr": 0,
+     "eg": 3,
+     "im": 0,
+     "iq": 1,
+     "pw": 3,
+     "ro": 3,
+     "ti": 2
+    }
+   }
+  ],
+  "dou": [
+   {
+    "l": "24×7 support",
+    "max": 3,
+    "lv": [
+     [
+      3,
+      "Says it is open 24×7"
+     ],
+     [
+      1.5,
+      "Fixed hours, not 24×7"
+     ]
+    ],
+    "v": {
+     "cl": 0,
+     "cr": 1,
+     "eg": 0,
+     "im": 1,
+     "iq": 0,
+     "pw": 0,
+     "ro": 0,
+     "ti": 1
+    }
+   },
+   {
+    "l": "Stated reply time",
+    "max": 2,
+    "lv": [
+     [
+      2,
+      "Stated: under an hour"
+     ],
+     [
+      1,
+      "Stated: about a day"
+     ],
+     [
+      0.5,
+      "Not stated"
+     ]
+    ],
+    "v": {
+     "cl": 2,
+     "cr": 1,
+     "eg": 2,
+     "im": 2,
+     "iq": 0,
+     "pw": 2,
+     "ro": 2,
+     "ti": 2
+    }
+   },
+   {
+    "l": "Who answers",
+    "max": 2,
+    "lv": [
+     [
+      2,
+      "Teachers or a separate doubt team"
+     ],
+     [
+      1.5,
+      "Mentors, other students or AI"
+     ]
+    ],
+    "v": {
+     "cl": 1,
+     "cr": 0,
+     "eg": 0,
+     "im": 1,
+     "iq": 0,
+     "pw": 0,
+     "ro": 1,
+     "ti": 0
+    }
+   },
+   {
+    "l": "What you can ask",
+    "max": 2,
+    "lv": [
+     [
+      2,
+      "Doubts from any source"
+     ],
+     [
+      1.5,
+      "Usual channels only"
+     ],
+     [
+      1,
+      "Small team for the hours promised"
+     ]
+    ],
+    "v": {
+     "cl": 1,
+     "cr": 1,
+     "eg": 2,
+     "im": 1,
+     "iq": 0,
+     "pw": 1,
+     "ro": 1,
+     "ti": 1
+    }
+   },
+   {
+    "l": "Confirmed by reviews",
+    "max": 1,
+    "lv": [
+     [
+      1,
+      "Reviews confirm the speed"
+     ],
+     [
+      0,
+      "Not confirmed by reviews"
+     ]
+    ],
+    "v": {
+     "cl": 1,
+     "cr": 1,
+     "eg": 1,
+     "im": 1,
+     "iq": 1,
+     "pw": 1,
+     "ro": 1,
+     "ti": 1
+    }
+   }
+  ],
+  "moc": [
+   {
+    "l": "Full mocks",
+    "max": 1.5,
+    "lv": [
+     [
+      1.5,
+      "30 or more"
+     ],
+     [
+      1,
+      "25–29"
+     ],
+     [
+      0,
+      "Not published"
+     ]
+    ],
+    "v": {
+     "cl": 0,
+     "cr": 1,
+     "eg": 2,
+     "im": 0,
+     "iq": 0,
+     "pw": 0,
+     "ro": 2,
+     "ti": 0
+    }
+   },
+   {
+    "l": "Sectionals",
+    "max": 1.5,
+    "lv": [
+     [
+      1.5,
+      "40 or more"
+     ],
+     [
+      1,
+      "30–39"
+     ],
+     [
+      0,
+      "None listed"
+     ]
+    ],
+    "v": {
+     "cl": 0,
+     "cr": 0,
+     "eg": 2,
+     "im": 1,
+     "iq": 0,
+     "pw": 0,
+     "ro": 2,
+     "ti": 2
+    }
+   },
+   {
+    "l": "How many students take them",
+    "max": 3,
+    "lv": [
+     [
+      3,
+      "The most students, so percentiles are most reliable"
+     ],
+     [
+      2,
+      "A well-known series"
+     ],
+     [
+      1.5,
+      "Fewer students"
+     ],
+     [
+      1,
+      "New or unknown"
+     ]
+    ],
+    "v": {
+     "cl": 0,
+     "cr": 3,
+     "eg": 3,
+     "im": 0,
+     "iq": 2,
+     "pw": 3,
+     "ro": 3,
+     "ti": 1
+    }
+   },
+   {
+    "l": "How close to CAT",
+    "max": 4,
+    "lv": [
+     [
+      4,
+      "Seen as closest to CAT"
+     ],
+     [
+      3.5,
+      "Close to CAT level"
+     ],
+     [
+      2,
+      "Harder than CAT, or not enough reviews"
+     ],
+     [
+      1.5,
+      "Harder, and sometimes off the CAT pattern"
+     ],
+     [
+      1,
+      "Basic, still new"
+     ]
+    ],
+    "v": {
+     "cl": 1,
+     "cr": 2,
+     "eg": 4,
+     "im": 0,
+     "iq": 1,
+     "pw": 2,
+     "ro": 3,
+     "ti": 3
+    }
+   }
+  ],
+  "app": [
+   {
+    "l": "Platforms",
+    "max": 3,
+    "lv": [
+     [
+      3,
+      "Web, iOS and Android"
+     ],
+     [
+      2.5,
+      "Web and app"
+     ],
+     [
+      2,
+      "Web and Android only"
+     ],
+     [
+      1,
+      "Web only on course pages"
+     ]
+    ],
+    "v": {
+     "cl": 3,
+     "cr": 2,
+     "eg": 0,
+     "im": 1,
+     "iq": 0,
+     "pw": 1,
+     "ro": 1,
+     "ti": 1
+    }
+   },
+   {
+    "l": "Study guidance in the app",
+    "max": 4,
+    "lv": [
+     [
+      4,
+      "Guided dashboard with analysis and error tracking"
+     ],
+     [
+      3.5,
+      "Daily targets and practice that adapts to you"
+     ],
+     [
+      2,
+      "Some tools"
+     ],
+     [
+      1.5,
+      "Basic or shared app"
+     ]
+    ],
+    "v": {
+     "cl": 2,
+     "cr": 1,
+     "eg": 2,
+     "im": 2,
+     "iq": 0,
+     "pw": 3,
+     "ro": 3,
+     "ti": 3
+    }
+   },
+   {
+    "l": "How smoothly it runs",
+    "max": 3,
+    "lv": [
+     [
+      3,
+      "Reviews say it runs smoothly"
+     ],
+     [
+      2.5,
+      "No issues reported"
+     ],
+     [
+      1.5,
+      "Some issues reported"
+     ],
+     [
+      0.5,
+      "Several issues reported"
+     ]
+    ],
+    "v": {
+     "cl": 1,
+     "cr": 1,
+     "eg": 2,
+     "im": 1,
+     "iq": 1,
+     "pw": 1,
+     "ro": 3,
+     "ti": 2
+    }
+   }
+  ],
+  "con": [
+   {
+    "l": "Basic to advanced levels",
+    "max": 3,
+    "lv": [
+     [
+      3,
+      "Clear basic and advanced stages"
+     ],
+     [
+      2.5,
+      "Batches in stages"
+     ],
+     [
+      2,
+      "Foundation module only"
+     ],
+     [
+      1,
+      "Levels not described"
+     ]
+    ],
+    "v": {
+     "cl": 0,
+     "cr": 0,
+     "eg": 0,
+     "im": 0,
+     "iq": 0,
+     "pw": 1,
+     "ro": 3,
+     "ti": 2
+    }
+   },
+   {
+    "l": "Starter course for non-engineers",
+    "max": 1,
+    "lv": [
+     [
+      1,
+      "A separate starter course"
+     ],
+     [
+      0,
+      "None listed"
+     ]
+    ],
+    "v": {
+     "cl": 0,
+     "cr": 1,
+     "eg": 1,
+     "im": 1,
+     "iq": 0,
+     "pw": 1,
+     "ro": 1,
+     "ti": 1
+    }
+   },
+   {
+    "l": "How reviewers rate it",
+    "max": 4,
+    "lv": [
+     [
+      4,
+      "Well suited to CAT level"
+     ],
+     [
+      3.5,
+      "Positive"
+     ],
+     [
+      3,
+      "Well rated, but tougher than CAT"
+     ],
+     [
+      2.5,
+      "Strong in parts, weaker in others"
+     ],
+     [
+      2,
+      "Few reviews yet"
+     ],
+     [
+      1.5,
+      "Described as old"
+     ]
+    ],
+    "v": {
+     "cl": 5,
+     "cr": 4,
+     "eg": 3,
+     "im": 0,
+     "iq": 1,
+     "pw": 4,
+     "ro": 2,
+     "ti": 2
+    }
+   },
+   {
+    "l": "Past year questions (PYQs)",
+    "max": 2,
+    "lv": [
+     [
+      2,
+      "Full past papers plus topic-wise PYQs"
+     ],
+     [
+      1.5,
+      "Topic- or year-wise PYQs"
+     ],
+     [
+      1,
+      "PYQ workshops"
+     ],
+     [
+      0,
+      "None listed"
+     ]
+    ],
+    "v": {
+     "cl": 2,
+     "cr": 0,
+     "eg": 3,
+     "im": 3,
+     "iq": 1,
+     "pw": 1,
+     "ro": 3,
+     "ti": 3
+    }
+   }
+  ],
+  "com": [
+   {
+    "l": "Student groups",
+    "max": 4,
+    "lv": [
+     [
+      4,
+      "Five or more"
+     ],
+     [
+      3,
+      "Three or four"
+     ],
+     [
+      2.5,
+      "Two"
+     ],
+     [
+      1.5,
+      "One"
+     ],
+     [
+      0,
+      "None listed"
+     ]
+    ],
+    "v": {
+     "cl": 3,
+     "cr": 0,
+     "eg": 3,
+     "im": 2,
+     "iq": 1,
+     "pw": 4,
+     "ro": 4,
+     "ti": 3
+    }
+   },
+   {
+    "l": "Open to anyone",
+    "max": 3,
+    "lv": [
+     [
+      3,
+      "An open group anyone can join"
+     ],
+     [
+      1,
+      "Tied to a paid batch"
+     ],
+     [
+      0,
+      "No student group"
+     ]
+    ],
+    "v": {
+     "cl": 1,
+     "cr": 0,
+     "eg": 1,
+     "im": 1,
+     "iq": 0,
+     "pw": 2,
+     "ro": 2,
+     "ti": 1
+    }
+   },
+   {
+    "l": "Activity",
+    "max": 3,
+    "lv": [
+     [
+      3,
+      "Large, active community"
+     ],
+     [
+      1.5,
+      "Busy batch groups where questions can get lost"
+     ],
+     [
+      0.5,
+      "Reported as slow"
+     ],
+     [
+      0,
+      "No student community"
+     ]
+    ],
+    "v": {
+     "cl": 1,
+     "cr": 0,
+     "eg": 2,
+     "im": 1,
+     "iq": 0,
+     "pw": 3,
+     "ro": 3,
+     "ti": 1
+    }
+   }
+  ],
+  "men": [
+   {
+    "l": "One-on-one sessions",
+    "max": 5,
+    "lv": [
+     [
+      5,
+      "Up to 7 sessions"
+     ],
+     [
+      4,
+      "5 sessions"
+     ],
+     [
+      3.5,
+      "4 sessions"
+     ],
+     [
+      3,
+      "Personal mentor, no session count"
+     ],
+     [
+      2.5,
+      "Phone or bookable calls"
+     ],
+     [
+      2,
+      "Group sessions or selected students only"
+     ],
+     [
+      1.5,
+      "By email, chat or at a centre"
+     ]
+    ],
+    "v": {
+     "cl": 2,
+     "cr": 4,
+     "eg": 3,
+     "im": 0,
+     "iq": 5,
+     "pw": 1,
+     "ro": 5,
+     "ti": 6
+    }
+   },
+   {
+    "l": "Who mentors",
+    "max": 3,
+    "lv": [
+     [
+      3,
+      "Full-time mentors"
+     ],
+     [
+      2.5,
+      "Teaching faculty or study managers"
+     ],
+     [
+      1.5,
+      "Institute team"
+     ],
+     [
+      1,
+      "Few mentors, or not stated"
+     ]
+    ],
+    "v": {
+     "cl": 1,
+     "cr": 2,
+     "eg": 3,
+     "im": 0,
+     "iq": 1,
+     "pw": 3,
+     "ro": 1,
+     "ti": 1
+    }
+   },
+   {
+    "l": "Who gets it",
+    "max": 2,
+    "lv": [
+     [
+      2,
+      "Every student"
+     ],
+     [
+      1.5,
+      "Some plans"
+     ],
+     [
+      1,
+      "One batch or selected students"
+     ]
+    ],
+    "v": {
+     "cl": 1,
+     "cr": 0,
+     "eg": 0,
+     "im": 0,
+     "iq": 2,
+     "pw": 2,
+     "ro": 0,
+     "ti": 0
+    }
+   }
+  ]
+ },
+ "WHY": {
+  "res": {
+   "cl": "Fell from 520+ to 390+, and one IIM Lucknow figure does not add up.",
+   "cr": "584, checked by a CA firm, with counts published for three years.",
+   "eg": "112 claimed, but only 43 named, all as IIM Bangalore converts.",
+   "im": "935, checked by a CA firm, but the count includes test-series buyers and mentors.",
+   "iq": "580+ (some pages say 600+), published for three years but not checked by an outside firm.",
+   "pw": "30+, and it shows each topper’s batch, including free users.",
+   "ro": "150 claimed and about 22 named. It is a newer institute.",
+   "ti": "No CAT 2025 figure. It gives 2024 offers checked by a CA firm instead."
+  },
+  "fac": {
+   "cl": "No faculty percentiles. Teachers vary by centre, and some students find the Quant pace a problem.",
+   "cr": "The founders teach (100 and 99.97), but live classes are new.",
+   "eg": "Three main teachers. QA and LRDI are rated well, and VARC is average.",
+   "im": "Teachers vary by centre, and two of four lead teachers publish their scores.",
+   "iq": "350+ live hours, and an application class follows each live class.",
+   "pw": "330–400+ hours, and most lead teachers publish 99.9+ scores.",
+   "ro": "Classes have polls, but doubts are slow in class and topics drag on.",
+   "ti": "Teachers are not named online, and the online course is weaker."
+  },
+  "rec": {
+   "cl": "280+ videos, kept as a library to browse.",
+   "cr": "1,000+ concept videos, each paired with practice.",
+   "eg": "300+ hours, mostly recordings of live classes.",
+   "im": "650+ hours, kept as a library to browse.",
+   "iq": "1,500+ videos, set out as a step-by-step path.",
+   "pw": "A 40+ hour foundation course, plus recordings.",
+   "ro": "Concept Capsules, but no count or hours given.",
+   "ti": "180 sessions and 26 e-books."
+  },
+  "pra": {
+   "cl": "5,760–6,750+, with the most daily and topic tests.",
+   "cr": "22,700+, and Daily Targets are the most praised feature.",
+   "eg": "No practice count published.",
+   "im": "7,500+, each with a video solution.",
+   "iq": "25,500+ across all its products, set out in stages.",
+   "pw": "5,000–6,000+ DPPs, each with a video solution.",
+   "ro": "2,000+ QA questions plus sets, and 105 sectionals that are harder than CAT.",
+   "ti": "3,500 (Flexi) to 9,000 (live), getting harder step by step."
+  },
+  "dou": {
+   "cl": "A 24×7 batch Telegram group and an AI doubt solver.",
+   "cr": "Answers come in about one working day, under the lesson.",
+   "eg": "24×7 groups, but a small team for those hours.",
+   "im": "Telegram, the centre and mentors, with no stated speed.",
+   "iq": "24×7, with a stated reply in under 15 minutes for doubts from any source.",
+   "pw": "A 24×7 Doubt Engine with teachers who only solve doubts.",
+   "ro": "The 24×7 Rodha Buddy app, plus sessions with teachers on Meet.",
+   "ti": "Email, chat, Telegram and the centre, with no stated speed."
+  },
+  "moc": {
+   "cl": "31 mocks and 45 sectionals, taken by many students.",
+   "cr": "25 mocks for ₹1,499, but harder than CAT.",
+   "eg": "New to mocks, and reviews call them basic.",
+   "im": "SimCATs are seen as closest to CAT, and the most students take them.",
+   "iq": "35 mocks and 45 sectionals, close to CAT level.",
+   "pw": "30 AceCATs, which it calls “close, not identical” to CAT.",
+   "ro": "The series is not published, and VARC is harder than the CAT pattern.",
+   "ti": "30 AIMCATs, harder than CAT and sometimes off the pattern."
+  },
+  "app": {
+   "cl": "Website only, with no app on its course pages.",
+   "cr": "Android app with Daily Targets and practice that adapts to you.",
+   "eg": "iOS and Android apps, but students report buffering.",
+   "im": "myIMS 3.0 app, where tests unlock in stages.",
+   "iq": "A new dashboard, AI mock analysis and an error tracker.",
+   "pw": "It shares the PW app, and many recordings are on YouTube.",
+   "ro": "Students report glitches, missing audio and offline problems.",
+   "ti": "A linked app, but rated weaker for online study."
+  },
+  "con": {
+   "cl": "A starter course for non-engineers, but the printed material feels old.",
+   "cr": "Foundation, then Advanced, with the most PYQs (36 papers).",
+   "eg": "Basics, then Advanced, but VARC is seen as weaker.",
+   "im": "Rated well suited to CAT level.",
+   "iq": "Separate starter courses by background, and PYQs by topic.",
+   "pw": "From Starter Kit to Rapid Revision, with a 7-year PYQ book.",
+   "ro": "Deep content, but its pages don’t describe the levels.",
+   "ti": "Printed notes are among the best rated, but harder than CAT."
+  },
+  "com": {
+   "cl": "Batch Telegram groups.",
+   "cr": "Six channels, including the open Cracku Adda forum.",
+   "eg": "Students say the forum is slow and quiet.",
+   "im": "Batch Telegram groups and an in-app feed.",
+   "iq": "An open Facebook group with 4 lakh+ members.",
+   "pw": "It relies on YouTube, with no student community listed.",
+   "ro": "No student community listed.",
+   "ti": "Batch Telegram groups."
+  },
+  "men": {
+   "cl": "4 one-on-one sessions in the CAT 2027 online course.",
+   "cr": "Mentoring on phone calls, plus free calls you can book.",
+   "eg": "Each student gets a mentor, but there are few mentors overall.",
+   "im": "An assigned mentor and up to 7 one-on-one sessions.",
+   "iq": "A Personal Mentorship Batch for selected students.",
+   "pw": "5 sessions in the Rapid-Fire batch.",
+   "ro": "Panchayat group sessions with the batch’s own teachers.",
+   "ti": "By email or chat, or in person at centres."
+  }
+ },
+ "TAKE": {
+  "res": "Each institute counts results in its own way, so you can’t compare the big numbers directly. Many students join more than one institute, so the same topper can show up on several pages.",
+  "fac": "Six of the eight name their lead teachers and publish their percentiles, and most are 99.9 or above. Career Launcher and T.I.M.E. publish none.",
+  "rec": "A big library matters less than knowing what to watch and practise next. Cracku and iQuanta build their recordings into a guided path, while the others mostly give you a library to browse.",
+  "pra": "Cracku and iQuanta publish the biggest question banks, and Elites Grid publishes no count. But the numbers are not counted the same way. iQuanta’s covers all its products, while most others cover one course.",
+  "dou": "Most institutes now offer 24×7 doubt support, but only iQuanta says how fast it replies. All claims about speed and hours come from the institutes themselves.",
+  "moc": "Students still trust IMS and Career Launcher most for predicted percentiles. Cracku and T.I.M.E. mocks, and Rodha’s VARC section, are seen as harder than CAT.",
+  "app": "All eight have a website, and all except Career Launcher list a mobile app. The bigger differences are how well the app guides your study and how smoothly it runs.",
+  "con": "Most split their content into a basic stage and an advanced stage. iQuanta and Career Launcher also run starter courses for non-engineers. What differs most is how close the material is to CAT level.",
+  "com": "Telegram groups are the main way T.I.M.E., IMS and Career Launcher students talk to each other. iQuanta and Cracku have the widest student groups, while PW and Rodha list no student community.",
+  "men": "All eight offer some mentoring, but how much varies. IMS offers up to 7 one-on-one sessions, PW offers 5 and Career Launcher offers 4."
+ },
+ "REAL99": 2580
+}
