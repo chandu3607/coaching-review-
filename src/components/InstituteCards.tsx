@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { INST, PIC, RANKED, strengths } from "@/lib/coaching";
+import { HOME, INST, PIC, RANKED, strengths } from "@/lib/coaching";
 import { LogoTile } from "./Logo";
 import { RadarChart } from "./RadarChart";
 import { ScoreRing } from "./ScoreRing";
@@ -9,7 +9,7 @@ export function InstituteCards() {
   return (
     <section id="institutes" className="scroll-mt-28 py-14 sm:py-16">
       <div className="container-x">
-        <SectionHeading n="02" eyebrow="Coachings" title="Eight coachings, eight different shapes" lede="Each shape is that institute’s ten scores. Wide and even means steady all round; a spike shows where it is strongest." />
+        <SectionHeading n="02" eyebrow="Coachings" title={HOME.institutes.title} lede={HOME.institutes.lede} />
         <div className="mt-8 grid gap-4 sm:grid-cols-2 xl:grid-cols-4">
           {INST.map((I) => {
             const rank = RANKED.indexOf(I) + 1;

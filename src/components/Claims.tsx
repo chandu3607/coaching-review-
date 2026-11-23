@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { BACKING, BY, INST, REAL99, TOTAL_CLAIM, CLAIMERS, fmt, type Backing } from "@/lib/coaching";
+import { BACKING, BY, CLAIMS_CHART, HOME, INST, REAL99, TOTAL_CLAIM, CLAIMERS, fmt, tpl, type Backing } from "@/lib/coaching";
 import { HBars } from "./HBars";
 import { Logo } from "./Logo";
 import { CountUp } from "./CountUp";
@@ -11,13 +11,13 @@ export function ClaimBars() {
     id: I.id, label: I.name, href: `/institutes/${I.id}`, v: I.claim, color: BACKING_COLOR[I.backing],
     tx: I.claim ? <b className="text-slate-900">{I.claimTxt}</b> : I.claimTxt, sub: BACKING[I.backing][0],
   }));
-  return <HBars rows={rows} max={935} />;
+  return <HBars rows={rows} max={CLAIMS_CHART.barMax} />;
 }
 
 export function TrendChart() {
-  const who = ["iq", "cr", "cl", "eg"] as const;
+  const who = CLAIMS_CHART.trendIds;
   const cols = ["#133a5f", "#2e8fd9", "#1b5d94"];
-  const max = 600;
+  const max = CLAIMS_CHART.trendMax;
   return (
     <div>
       <div className="flex h-56 items-end justify-around gap-3 border-b border-slate-200 px-2" role="img" aria-label={`Claimed 99+ percentilers over three years: ${who.map((id) => `${BY[id].name} ${BY[id].years!.map((y) => y ?? "no figure").join(", ")}`).join("; ")}`}>
@@ -34,8 +34,8 @@ export function TrendChart() {
       </div>
       <div className="mt-2 flex justify-around">{who.map((id) => <span key={id} className="flex flex-col items-center gap-1 text-xs font-semibold text-slate-700"><Logo I={BY[id]} s={22} />{BY[id].short}</span>)}</div>
       <div className="mt-4 flex flex-wrap items-center gap-4 text-xs text-slate-500">
-        {["2023", "2024", "2025"].map((y, j) => <span key={y} className="flex items-center gap-1.5"><i className="h-3 w-3 rounded" style={{ background: cols[j] }} />{y}</span>)}
-        <span>Only institutes that published more than one year</span>
+        {CLAIMS_CHART.trendYears.map((y, j) => <span key={y} className="flex items-center gap-1.5"><i className="h-3 w-3 rounded" style={{ background: cols[j] }} />{y}</span>)}
+        <span>{HOME.claims.trendNote}</span>
       </div>
     </div>
   );
@@ -53,13 +53,13 @@ export function Claims() {
         <div className="container-x grid items-center gap-12 lg:grid-cols-2">
           <div>
             <p className="eyebrow !text-brand-300"><span className="mr-2">04</span>Claims vs reality</p>
-            <h2 className="mt-2 text-3xl font-extrabold leading-[1.05] tracking-tight sm:text-3xl">CAT 2025 had about {fmt(REAL99)} 99+ percentilers.</h2>
+            <h2 className="mt-2 text-3xl font-extrabold leading-[1.05] tracking-tight sm:text-3xl">{tpl(HOME.claims.title)}</h2>
             <p className="mt-6 flex items-baseline gap-3">
               <span className="text-4xl font-extrabold tabular-nums text-sky-300 sm:text-5xl"><CountUp to={TOTAL_CLAIM} /></span>
-              <span className="max-w-[16rem] text-slate-600">claimed by {CLAIMERS} institutes.</span>
+              <span className="max-w-[16rem] text-slate-600">{tpl(HOME.claims.claimedBy)}</span>
             </p>
             <p className="mt-5 max-w-lg text-slate-600">
-              <b className="text-rose-300">{fmt(over)}</b> more claims than real toppers. Many students join several institutes, so one topper is often counted more than once.
+              <b className="text-rose-300">{fmt(over)}</b> {HOME.claims.overNote}
             </p>
           </div>
           <div>
@@ -79,9 +79,9 @@ export function Claims() {
                 {(["audited", "named", "partial"] as Backing[]).map((b) => (
                   <li key={b} className="flex items-center gap-2"><i className="h-3 w-3 rounded" style={{ background: BACKING_COLOR[b] }} />{BACKING[b][0]}</li>
                 ))}
-                <li className="flex items-center gap-2"><i className="h-3 w-3 rounded bg-rose-500/100/70" />Claims beyond the real total</li>
+                <li className="flex items-center gap-2"><i className="h-3 w-3 rounded bg-rose-500/100/70" />{HOME.claims.legendOver}</li>
               </ul>
-              <p className="mt-4 text-xs text-slate-400">2.58 lakh candidates took CAT 2025, so the top 1% is about 2,580. Each claim is the main figure the institute itself publishes.</p>
+              <p className="mt-4 text-xs text-slate-400">{HOME.claims.scaleNote}</p>
             </div>
           </div>
         </div>
@@ -89,18 +89,18 @@ export function Claims() {
 
       <div className="bg-surface py-12 sm:py-14">
         <div className="container-x">
-          <h3 className="text-xl font-bold tracking-tight sm:text-2xl">Institute by institute</h3>
+          <h3 className="text-xl font-bold tracking-tight sm:text-2xl">{HOME.claims.tableTitle}</h3>
           <div className="mt-8 grid gap-10 lg:grid-cols-2">
             <div>
-              <p className="eyebrow mb-4 !text-slate-500">CAT 2025: claimed 99+ percentilers</p>
+              <p className="eyebrow mb-4 !text-slate-500">{HOME.claims.barsTitle}</p>
               <ClaimBars />
             </div>
             <div>
-              <p className="eyebrow mb-4 !text-slate-500">Over three years</p>
+              <p className="eyebrow mb-4 !text-slate-500">{HOME.claims.trendTitle}</p>
               <TrendChart />
             </div>
           </div>
-          <p className="mt-8 max-w-3xl text-sm text-slate-500">Institutes count in different ways. IMS includes test-series buyers and mentors, and T.I.M.E. reports 2024 offers, not percentiles. So the totals can’t be compared directly.</p>
+          <p className="mt-8 max-w-3xl text-sm text-slate-500">{HOME.claims.footnote}</p>
         </div>
       </div>
     </section>

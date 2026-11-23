@@ -1,7 +1,6 @@
 import Link from "next/link";
-import { GLANCE, GLANCE_NOTE, INST } from "@/lib/coaching";
+import { GLANCE, GLANCE_NOTE, HOME, INST, tpl } from "@/lib/coaching";
 import { LogoBox } from "./Logo";
-import { site } from "@/config/site";
 
 export function Glance() {
   return (
@@ -9,8 +8,8 @@ export function Glance() {
       <div className="container-x grid gap-10">
         <div>
           <p className="eyebrow !text-brand-300"><span className="mr-2">03</span>At a glance</p>
-          <h2 className="mt-2 text-2xl font-bold tracking-tight sm:text-3xl">What each institute actually publishes</h2>
-          <p className="mt-3 text-slate-600">From each institute’s own pages, {site.checked}. Hover a dot to see the details.</p>
+          <h2 className="mt-2 text-2xl font-bold tracking-tight sm:text-3xl">{HOME.glance.title}</h2>
+          <p className="mt-3 text-slate-600">{tpl(HOME.glance.lede)}</p>
         </div>
 
         <div>

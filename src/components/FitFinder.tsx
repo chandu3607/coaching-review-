@@ -1,7 +1,7 @@
 "use client";
 import Link from "next/link";
 import { useMemo, useState } from "react";
-import { INST, PARAMS, f1, fitScore, strengths, type ParamKey } from "@/lib/coaching";
+import { HOME, INST, PARAMS, f1, fitScore, strengths, type ParamKey } from "@/lib/coaching";
 import { LogoBox, LogoTile } from "./Logo";
 import { SectionHeading } from "./SectionHeading";
 
@@ -14,7 +14,7 @@ export function FitFinder() {
   return (
     <section id="fit" className="scroll-mt-20 py-14 sm:py-16">
       <div className="container-x">
-        <SectionHeading n="07" eyebrow="Your fit" title="Find my fit" lede="Pick up to three things that matter most. Each counts four times as much in your ranking." />
+        <SectionHeading n="07" eyebrow="Your fit" title={HOME.fit.title} lede={HOME.fit.lede} />
         <div className="mt-10 grid gap-6 lg:grid-cols-[.8fr_1.2fr]">
           <div className="card h-fit p-6">
             <p className="flex items-center justify-between text-xs font-semibold uppercase tracking-wider text-slate-500">

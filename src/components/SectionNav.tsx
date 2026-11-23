@@ -1,7 +1,8 @@
 "use client";
 import { useEffect, useState } from "react";
+import { NAV } from "@/lib/coaching";
 
-const SECTIONS: [string, string][] = [["scores", "Scorecard"], ["institutes", "Institutes"], ["glance", "At a glance"], ["results", "Claims check"], ["questions", "Questions"], ["voices", "Voices"], ["fit", "Find my fit"]];
+const SECTIONS = NAV.sections;
 
 /** Sticky pill nav under the header with scroll-spy. */
 export function SectionNav() {

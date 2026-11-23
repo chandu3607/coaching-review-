@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { AVG, BACKING, BY, INST, PARAMS, PIC, RANKED, RESULTS_SHOTS, SHOTS, USP, WHY, cap, f1, fmt, ord, type InstId } from "@/lib/coaching";
+import { AVG, BACKING, BY, INST, PARAMS, PIC, RANKED, RESULTS_SHOTS, SHOTS, USP, WHY, cap, f1, fmt, ord, site, type InstId } from "@/lib/coaching";
 import { LogoTile } from "@/components/Logo";
 import { RatingPill } from "@/components/ScoreBadge";
 import { ScoreRing } from "@/components/ScoreRing";
@@ -195,7 +195,7 @@ export default function InstitutePage({ params }: { params: { id: string } }) {
                 <ShotGrid kind={SH.extra.kind} shots={SH.extra.items.map((it, i) => ({ src: `/images/app-${I.id}-${SH.extra!.prefix}${i + 1}.jpg`, title: it[0], caption: it[1], alt: `${I.name} screen: ${it[0]}` }))} />
               </>
             )}
-            <p className="mt-8 text-xs text-slate-500">{SH.showcase ? "Taken from " : "Screenshots from "}{SH.src}, November 2026. Names and photos are blurred. The screens show the product, but they don’t change the scores, which come only from published information.</p>
+            <p className="mt-8 text-xs text-slate-500">{SH.showcase ? "Taken from " : "Screenshots from "}{SH.src}, {site.checked}. Names and photos are blurred. The screens show the product, but they don’t change the scores, which come only from published information.</p>
           </div>
         </section>
       )}
@@ -205,7 +205,7 @@ export default function InstitutePage({ params }: { params: { id: string } }) {
           <div className="container-x">
             <SectionHeading n={num()} eyebrow="Results" title="Its results page" lede={RS.lede} />
             <div className="mt-8"><ShotGrid shots={RS.items.map((it, i) => ({ src: `/images/res-${I.id}-${i + 1}.jpg`, title: it[0], caption: it[1], alt: `${I.name} results page: ${it[0]}` }))} /></div>
-            <p className="mt-6 text-xs text-slate-500">Screenshots from the {I.name} website, November 2026. We have blurred the students’ names and photos. We could not check these results ourselves.</p>
+            <p className="mt-6 text-xs text-slate-500">Screenshots from the {I.name} website, {site.checked}. We have blurred the students’ names and photos. We could not check these results ourselves.</p>
           </div>
         </section>
       )}

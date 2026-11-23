@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import { INST } from "@/lib/coaching";
+import { HOME, INST } from "@/lib/coaching";
 import { LogoBox } from "./Logo";
 import { SectionHeading } from "./SectionHeading";
 
@@ -8,7 +8,7 @@ export function Voices() {
   return (
     <section id="voices" className="scroll-mt-20 bg-surface py-14 sm:py-16">
       <div className="container-x">
-        <SectionHeading n="06" eyebrow="Voices" title="What students say" lede="Themes from Reddit and Careers360 reviews, in our own words. We have not checked them." />
+        <SectionHeading n="06" eyebrow="Voices" title={HOME.voices.title} lede={HOME.voices.lede} />
         <div className="mt-10 grid gap-5 sm:grid-cols-2 xl:grid-cols-4">
           {INST.map((I) => (
             <Link key={I.id} href={`/institutes/${I.id}`} className="group card flex flex-col overflow-hidden transition hover:-translate-y-1 hover:shadow-glow">

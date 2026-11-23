@@ -1,14 +1,14 @@
 "use client";
 import Link from "next/link";
 import { useMemo, useState } from "react";
-import { INST, PARAMS, PIDX, WHY, f1, heat, type ParamKey } from "@/lib/coaching";
+import { BANDS, HOME, INST, PARAMS, PIDX, WHY, f1, heat, tpl, type ParamKey } from "@/lib/coaching";
 
 const BEST = PARAMS.map((_, i) => Math.max(...INST.map((I) => I.sc[i])));
 import { LogoBox } from "./Logo";
 import { RatingPill } from "./ScoreBadge";
 import { SectionHeading } from "./SectionHeading";
 
-const bands: [number, string][] = [[8, "8 and above"], [6.5, "6.5 to 7.9"], [5, "5 to 6.4"], [4, "under 5"]];
+const bands = BANDS;
 
 export function Scorecard() {
   const [key, setKey] = useState<ParamKey | "o">("o");
@@ -21,8 +21,8 @@ export function Scorecard() {
     <section id="scores" className="scroll-mt-20 py-14 sm:py-16">
       <div className="container-x">
         <SectionHeading
-          n="01" eyebrow="Scorecard" title="The scorecard"
-          lede={`${INST.length} CAT coachings, each scored out of 10 in ${PARAMS.length} areas. The scores use what each institute publishes and what students say, and they are not final yet. Tap a column to sort. A ★ marks the best in each area.`}
+          n="01" eyebrow="Scorecard" title={HOME.scorecard.title}
+          lede={tpl(HOME.scorecard.lede)}
         />
         <div className="mt-6 flex flex-wrap items-center gap-3 text-sm text-slate-600">
           {bands.map(([v, l]) => (<span key={l} className="flex items-center gap-2"><RatingPill v={v} />{l}</span>))}
@@ -74,8 +74,8 @@ export function Scorecard() {
           </table>
         </div>
         <p className="mt-4 max-w-3xl text-sm text-slate-500">
-          The overall score is the average of the ten. Scores are based on what institutes publish and what students report, not on classes we sat in.{" "}
-          <Link href="/methodology" className="font-medium text-brand-600 underline underline-offset-2">See how we score</Link>.
+          {HOME.scorecard.footnote}{" "}
+          <Link href="/methodology" className="font-medium text-brand-600 underline underline-offset-2">{HOME.scorecard.footnoteLink}</Link>.
         </p>
       </div>
     </section>

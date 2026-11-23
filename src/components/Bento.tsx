@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { CLAIMERS, INST, PARAMS, RANKED, X247, f1 } from "@/lib/coaching";
+import { CLAIMERS, HOME, INST, N_CHECKS, PARAMS, RANKED, X247, f1 } from "@/lib/coaching";
 import { Logo, LogoTile } from "./Logo";
 import { ScoreRing } from "./ScoreRing";
 import { CountUp } from "./CountUp";
@@ -18,7 +18,7 @@ export function Bento() {
   return (
     <section className="py-14 sm:py-16">
       <div className="container-x">
-        <SectionHeading eyebrow="Highlights" title="The headline numbers" lede="Four quick facts, and who leads each of the ten areas." />
+        <SectionHeading eyebrow={HOME.bento.eyebrow} title={HOME.bento.title} lede={HOME.bento.lede} />
         <div className="mt-8 grid auto-rows-[minmax(140px,auto)] gap-4 md:grid-cols-4 lg:grid-cols-6">
           {/* best overall */}
           <Link href={`/institutes/${best.id}`} className="tilt spot gborder glass group relative overflow-hidden rounded-3xl p-5 md:col-span-2 lg:row-span-2">
@@ -53,19 +53,19 @@ export function Bento() {
             <p className="eyebrow">Publish a 99+ count</p>
             <p className="mt-2 text-3xl font-semibold tracking-tight text-white"><CountUp to={CLAIMERS} /> <span className="text-base font-medium text-slate-500">of {INST.length}</span></p>
             <Dots on={CLAIMERS} total={INST.length} color="bg-sky-400" />
-            <p className="mt-3 text-xs text-slate-500">Only 2 had it checked by a CA firm.</p>
+            <p className="mt-3 text-xs text-slate-500">{HOME.bento.claimsNote}</p>
           </div>
           <div className="tilt gborder glass rounded-3xl p-5 md:col-span-2">
             <p className="eyebrow">24×7 doubt support</p>
             <p className="mt-2 text-3xl font-semibold tracking-tight text-white"><CountUp to={X247} /> <span className="text-base font-medium text-slate-500">of {INST.length}</span></p>
             <Dots on={X247} total={INST.length} color="bg-emerald-400" />
-            <p className="mt-3 text-xs text-slate-500">Only iQuanta states a reply time.</p>
+            <p className="mt-3 text-xs text-slate-500">{HOME.bento.doubtsNote}</p>
           </div>
           <div className="tilt gborder glass rounded-3xl p-5 md:col-span-2">
             <p className="eyebrow">Checks behind every score</p>
-            <p className="mt-2 text-3xl font-semibold tracking-tight text-white"><CountUp to={37} /></p>
+            <p className="mt-2 text-3xl font-semibold tracking-tight text-white"><CountUp to={N_CHECKS} /></p>
             <Dots on={PARAMS.length} total={PARAMS.length} color="bg-violet-400" />
-            <p className="mt-3 text-xs text-slate-500">Same rules for all eight, including ours.</p>
+            <p className="mt-3 text-xs text-slate-500">{HOME.bento.checksNote}</p>
           </div>
         </div>
       </div>

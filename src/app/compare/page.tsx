@@ -1,10 +1,11 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { BACKING, BY, CLOSE, INST, PARAMS, f1, fmt, type InstId } from "@/lib/coaching";
+import { BACKING, BY, CLOSE, INST, PAGES, PARAMS, f1, fmt, tpl, type InstId } from "@/lib/coaching";
 import { Logo, LogoTile } from "@/components/Logo";
 import { heat } from "@/lib/coaching";
 
-export const metadata: Metadata = { title: "Compare institutes side by side" };
+const C = PAGES.compare;
+export const metadata: Metadata = { title: C.metaTitle };
 
 const COLORS = ["#3ba4f0", "#a78bfa", "#34d399"];
 
@@ -25,7 +26,7 @@ function MultiRadar({ sets }: { sets: { id: InstId; v: number[] }[] }) {
 export default function Compare({ searchParams }: { searchParams: { ids?: string } }) {
   const parsed = (searchParams.ids ?? "").split(",").filter((x): x is InstId => x in BY);
   const ids = Array.from(new Set(parsed)).slice(0, 3);
-  const sel = ids.length ? ids : (["iq", "cr", "im"] as InstId[]);
+  const sel = ids.length ? ids : C.defaultIds;
   const chosen = sel.map((id) => BY[id]);
   const toggle = (id: InstId) => {
     const next = sel.includes(id) ? sel.filter((x) => x !== id) : sel.length >= 3 ? [...sel.slice(1), id] : [...sel, id];
@@ -47,8 +48,8 @@ export default function Compare({ searchParams }: { searchParams: { ids?: string
   return (
     <div className="container-x py-10 sm:py-12">
       <p className="eyebrow">Compare</p>
-      <h1 className="mt-2 text-2xl font-bold tracking-tight sm:text-3xl">Compare up to three institutes</h1>
-      <p className="mt-2 max-w-xl text-sm text-slate-600">Pick institutes below. The page updates instantly, and you can share the link to keep your selection.</p>
+      <h1 className="mt-2 text-2xl font-bold tracking-tight sm:text-3xl">{C.title}</h1>
+      <p className="mt-2 max-w-xl text-sm text-slate-600">{C.lede}</p>
 
       <div className="mt-5 flex flex-wrap gap-2" role="group" aria-label="Choose institutes">
         {INST.map((I) => {
@@ -113,7 +114,7 @@ export default function Compare({ searchParams }: { searchParams: { ids?: string
           </tbody>
         </table>
       </section>
-      <p className="mt-4 text-xs text-slate-500">Figures are what each institute published as of {`November 2026`}, unless a CA firm checked them (marked above). {fmt(INST.length)} institutes covered.</p>
+      <p className="mt-4 text-xs text-slate-500">{tpl(C.footnote)} {fmt(INST.length)} institutes covered.</p>
     </div>
   );
 }

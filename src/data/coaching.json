@@ -1,5 +1,455 @@
 {
- "CHECKED": "November 2026",
+ "_README": "THE ONE FILE TO EDIT. Every number, name, score and piece of page text lives here. Sections: SITE (name, owner, email, date) · NAV (menus) · HOME / PAGES (headings and paragraphs) · PARAMS, INST, RUB, WHY, TAKE... (scores and facts). Placeholders you can use inside text: {checked} {owner} {email} {n} (number of institutes) {areas} (number of score areas) {checks} (number of rubric checks) {real99} {claimers} {totalClaim}. Overall scores (INST[].o, oRaw) are NOT calculated from sc[] automatically - if you change sc[], update them. After editing, the site refreshes on save (npm run dev) or on the next npm run build.",
+ "SITE": {
+  "name": "Coaching Review",
+  "tagline": "Compare CAT coachings before you pay.",
+  "owner": "Your Name / Company",
+  "contactEmail": "hello@example.com",
+  "checked": "November 2026",
+  "url": "https://example.com",
+  "metaDescription": "Eight CAT coachings scored out of 10 in ten areas — results, faculty, mocks, doubts and more — using what institutes publish and what students say.",
+  "disclosureBadge": "Scores not final",
+  "disclosureShort": "Run by {owner}",
+  "disclosureLong": " · Same method for every institute, including ours · Checked {checked}",
+  "disclosureLink": "How we score",
+  "footerAbout": "Run by {owner}. We use the same method for every institute, including ours. The figures are what each institute claimed as of {checked}, plus student reviews where we say so. The scores are not final.",
+  "footerErrorPrefix": "Spotted an error?",
+  "footerLegal": "Institute names and logos belong to their owners."
+ },
+ "NAV": {
+  "header": [
+   {
+    "href": "/#scores",
+    "label": "Scorecard"
+   },
+   {
+    "href": "/compare",
+    "label": "Compare"
+   },
+   {
+    "href": "/insights",
+    "label": "Insights"
+   },
+   {
+    "href": "/methodology",
+    "label": "Method"
+   },
+   {
+    "href": "/submit-review",
+    "label": "Review"
+   }
+  ],
+  "headerCta": {
+   "href": "/#fit",
+   "label": "Find my fit"
+  },
+  "sections": [
+   [
+    "scores",
+    "Scorecard"
+   ],
+   [
+    "institutes",
+    "Institutes"
+   ],
+   [
+    "glance",
+    "At a glance"
+   ],
+   [
+    "results",
+    "Claims check"
+   ],
+   [
+    "questions",
+    "Questions"
+   ],
+   [
+    "voices",
+    "Voices"
+   ],
+   [
+    "fit",
+    "Find my fit"
+   ]
+  ],
+  "footer": [
+   {
+    "href": "/",
+    "label": "Home"
+   },
+   {
+    "href": "/insights",
+    "label": "Insights"
+   },
+   {
+    "href": "/methodology",
+    "label": "How we score"
+   },
+   {
+    "href": "/submit-review",
+    "label": "Submit a review"
+   }
+  ],
+  "palette": [
+   {
+    "id": "home",
+    "label": "Home",
+    "hint": "Page",
+    "href": "/"
+   },
+   {
+    "id": "scores",
+    "label": "Scorecard",
+    "hint": "Section",
+    "href": "/#scores"
+   },
+   {
+    "id": "claims",
+    "label": "Claims vs reality",
+    "hint": "Section",
+    "href": "/#results"
+   },
+   {
+    "id": "q",
+    "label": "Five questions to ask",
+    "hint": "Section",
+    "href": "/#questions"
+   },
+   {
+    "id": "fit",
+    "label": "Find my fit",
+    "hint": "Tool",
+    "href": "/#fit"
+   },
+   {
+    "id": "compare",
+    "label": "Compare institutes side by side",
+    "hint": "Tool",
+    "href": "/compare"
+   },
+   {
+    "id": "insights",
+    "label": "Insights — all ten areas",
+    "hint": "Page",
+    "href": "/insights"
+   },
+   {
+    "id": "method",
+    "label": "How we score",
+    "hint": "Page",
+    "href": "/methodology"
+   },
+   {
+    "id": "review",
+    "label": "Submit a review",
+    "hint": "Page",
+    "href": "/submit-review"
+   }
+  ]
+ },
+ "HOME": {
+  "hero": {
+   "badge": "Updated {checked} · {n} institutes · {checks} checks each",
+   "title": "Pick the right CAT coaching",
+   "titleHighlight": "before you pay a rupee.",
+   "lede": "Honest scores out of 10 for results, faculty, mocks, doubt support and more, built from what institutes publish and what students say.",
+   "primaryButton": "See the scorecard",
+   "secondaryButton": "Compare side by side",
+   "prioLabel": "I care most about",
+   "prioHint": "Tap one and the leaderboard re-orders for you."
+  },
+  "bento": {
+   "eyebrow": "Highlights",
+   "title": "The headline numbers",
+   "lede": "Four quick facts, and who leads each of the ten areas.",
+   "claimsNote": "Only 2 had it checked by a CA firm.",
+   "doubtsNote": "Only iQuanta states a reply time.",
+   "checksNote": "Same rules for all eight, including ours."
+  },
+  "scorecard": {
+   "title": "The scorecard",
+   "lede": "{n} CAT coachings, each scored out of 10 in {areas} areas. The scores use what each institute publishes and what students say, and they are not final yet. Tap a column to sort. A ★ marks the best in each area.",
+   "footnote": "The overall score is the average of the ten. Scores are based on what institutes publish and what students report, not on classes we sat in.",
+   "footnoteLink": "See how we score"
+  },
+  "institutes": {
+   "title": "Eight coachings, eight different shapes",
+   "lede": "Each shape is that institute’s ten scores. Wide and even means steady all round; a spike shows where it is strongest."
+  },
+  "glance": {
+   "title": "What each institute actually publishes",
+   "lede": "From each institute’s own pages, {checked}. Hover a dot to see the details."
+  },
+  "claims": {
+   "title": "CAT 2025 had about {real99} 99+ percentilers.",
+   "claimedBy": "claimed by {claimers} institutes.",
+   "overNote": "more claims than real toppers. Many students join several institutes, so one topper is often counted more than once.",
+   "legendOver": "Claims beyond the real total",
+   "scaleNote": "2.58 lakh candidates took CAT 2025, so the top 1% is about 2,580. Each claim is the main figure the institute itself publishes.",
+   "tableTitle": "Institute by institute",
+   "barsTitle": "CAT 2025: claimed 99+ percentilers",
+   "trendTitle": "Over three years",
+   "trendNote": "Only institutes that published more than one year",
+   "footnote": "Institutes count in different ways. IMS includes test-series buyers and mentors, and T.I.M.E. reports 2024 offers, not percentiles. So the totals can’t be compared directly."
+  },
+  "questions": {
+   "eyebrow": "Five questions",
+   "title": "Five questions to ask before you pay",
+   "lede": "Each answer comes straight from what the eight institutes publish.",
+   "closing": "Ask these five before you pay.",
+   "closingButton": "Back to the scorecard ↑"
+  },
+  "voices": {
+   "title": "What students say",
+   "lede": "Themes from Reddit and Careers360 reviews, in our own words. We have not checked them."
+  },
+  "fit": {
+   "title": "Find my fit",
+   "lede": "Pick up to three things that matter most. Each counts four times as much in your ranking."
+  },
+  "finale": {
+   "title": "A year is too long to find out the hard way.",
+   "lede": "Check the numbers first, then choose.",
+   "primaryButton": "Submit your review →",
+   "secondaryButton": "See all ten areas"
+  }
+ },
+ "PAGES": {
+  "methodology": {
+   "metaTitle": "How we score",
+   "metaDescription": "Fixed rules behind every score, the same for all eight institutes.",
+   "eyebrow": "Method",
+   "title": "How a score is built",
+   "lede": "Each area is scored out of 10 using fixed rules, which are all listed below. The same {checks} checks apply to every institute, including the one that runs this site. The overall score is a simple average of the ten.",
+   "sources": "Sources: each institute’s own course, results, faculty and app pages, and student reviews on Reddit and Careers360, as of {checked}. The figures are the institutes’ own, unless we say a CA firm checked them. The scores are not final and will change as institutes update their pages. Spotted an error?"
+  },
+  "insights": {
+   "metaTitle": "Insights — all ten areas in detail",
+   "eyebrow": "Insights",
+   "title": "All ten areas, in detail",
+   "lede": "Every chart uses what the eight institutes publish, checked in {checked}. Each section ends with the scores for that area, and our scoring method is on its own page.",
+   "button": "How we score →",
+   "rhythm": [
+    [
+     "cr",
+     [
+      1,
+      1,
+      1,
+      1,
+      1,
+      0,
+      0
+     ],
+     "2 hrs each weekday evening (7:30–9:30 PM)"
+    ],
+    [
+     "ro",
+     [
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2
+     ],
+     "2 classes a day, 7 days a week (from a 2024 batch review)"
+    ],
+    [
+     "ti",
+     [
+      0,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0
+     ],
+     "3 classes a week (Online-Flexi)"
+    ]
+   ]
+  },
+  "compare": {
+   "metaTitle": "Compare institutes side by side",
+   "title": "Compare up to three institutes",
+   "lede": "Pick institutes below. The page updates instantly, and you can share the link to keep your selection.",
+   "defaultIds": [
+    "iq",
+    "cr",
+    "im"
+   ],
+   "footnote": "Figures are what each institute published as of {checked}, unless a CA firm checked them (marked above)."
+  },
+  "submitReview": {
+   "metaTitle": "Submit a review",
+   "eyebrow": "Submit a review",
+   "title": "Studied at a CAT coaching? Help the next batch choose.",
+   "lede": "It takes two minutes, and you don’t need to sign up. Reviews like yours appear next to the scores on each coaching’s page.",
+   "promises": [
+    "Checked before it’s published",
+    "Your email is never shown",
+    "Same rules for every coaching"
+   ],
+   "usefulTitle": "What makes a useful review",
+   "usefulTips": [
+    "Say which batch and year you were in.",
+    "Name what you actually used: classes, mocks, doubts, material.",
+    "Give one example, good or bad.",
+    "Say who it suits, and who it doesn’t."
+   ],
+   "notPublishedTitle": "What we don’t publish",
+   "notPublished": [
+    "Abuse or personal attacks",
+    "Phone numbers, emails or other personal details",
+    "Reviews written for or by a coaching"
+   ],
+   "footnote": "We read every review before we publish it next to the Reddit themes on each coaching’s page. Reviews don’t change the scores, which come from published information."
+  }
+ },
+ "REVIEW_FORM": {
+  "aspects": [
+   [
+    "fac",
+    "Faculty"
+   ],
+   [
+    "moc",
+    "Mocks"
+   ],
+   [
+    "dou",
+    "Doubt solving"
+   ],
+   [
+    "mat",
+    "Study material"
+   ]
+  ],
+  "years": [
+   "CAT 2027",
+   "CAT 2026",
+   "CAT 2025",
+   "Earlier"
+  ],
+  "modes": [
+   "Online live",
+   "Classroom",
+   "Recorded / self-paced",
+   "Test series only"
+  ],
+  "recommend": [
+   "Yes",
+   "It depends",
+   "No"
+  ]
+ },
+ "BANDS": [
+  [
+   8,
+   "8 and above"
+  ],
+  [
+   6.5,
+   "6.5 to 7.9"
+  ],
+  [
+   5,
+   "5 to 6.4"
+  ],
+  [
+   4,
+   "under 5"
+  ]
+ ],
+ "PRIO_W": 4,
+ "HERO_PRIO": [
+  [
+   "res",
+   "Proven results"
+  ],
+  [
+   "moc",
+   "Mocks like CAT"
+  ],
+  [
+   "dou",
+   "Fast doubt help"
+  ],
+  [
+   "men",
+   "1:1 mentoring"
+  ]
+ ],
+ "CLAIMS_CHART": {
+  "barMax": 935,
+  "trendIds": [
+   "iq",
+   "cr",
+   "cl",
+   "eg"
+  ],
+  "trendYears": [
+   "2023",
+   "2024",
+   "2025"
+  ],
+  "trendMax": 600
+ },
+ "QUESTIONS": [
+  {
+   "m": "Question 1",
+   "t": "Has anyone checked the 99+ count?",
+   "s": "Only IMS and Cracku had their CAT 2025 counts checked by a CA firm. T.I.M.E. had its 2024 offers checked, but not its percentiles.",
+   "panel": "Has anyone checked the 99+ count?"
+  },
+  {
+   "m": "Question 2",
+   "t": "Who actually teaches you?",
+   "s": "Six of the eight publish their lead teachers’ percentiles, and most are 99.9 or above. Career Launcher and T.I.M.E. publish none.",
+   "panel": "Lead faculty: highest published percentile"
+  },
+  {
+   "m": "Question 3",
+   "t": "How fast are doubts answered?",
+   "s": "Five offer 24×7 help. Only iQuanta says how fast it replies, and Cracku says about one working day. These are the institutes’ own claims.",
+   "panel": "Doubts: hours and stated reply time"
+  },
+  {
+   "m": "Question 4",
+   "t": "Do the mocks feel like CAT?",
+   "s": "Students see IMS’s SimCATs as the closest. Cracku, T.I.M.E. and Rodha’s VARC section are harder than the real paper.",
+   "panel": "Mock series and how close to CAT"
+  },
+  {
+   "m": "Question 5",
+   "t": "Who mentors you, and how often?",
+   "s": "IMS offers up to 7 one-on-one sessions, PW offers 5 and Career Launcher offers 4. The rest offer calls, group sessions or mentoring for selected batches.",
+   "panel": "One-on-one mentoring"
+  }
+ ],
+ "MENTOR_KIND": {
+  "im": "One-on-one, assigned mentor",
+  "pw": "One-on-one, Rapid-Fire batch",
+  "cl": "One-on-one, CAT 2027 online",
+  "cr": "Phone and bookable calls",
+  "eg": "Personal mentor, no session count",
+  "iq": "Selected students only",
+  "ro": "Group sessions with faculty",
+  "ti": "In person or by email"
+ },
+ "LOGO_AR": {
+  "cl": 3.809,
+  "iq": 3.488,
+  "eg": 1.082,
+  "ro": 1.925,
+  "ti": 1.0,
+  "im": 1.5,
+  "pw": 0.818,
+  "cr": 1.44
+ },
  "PARAMS": [
   {
    "k": "res",
