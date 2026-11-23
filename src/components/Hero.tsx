@@ -1,10 +1,11 @@
 "use client";
 import Link from "next/link";
 import { useState } from "react";
-import { HERO_PRIO, HOME, INST, N_CHECKS, TOTAL_CLAIM, REAL99, X247, fitScore, f1, fmt, tpl, type ParamKey } from "@/lib/coaching";
+import { HERO_PRIO, INST, PARAMS, RUB, TOTAL_CLAIM, REAL99, X247, fitScore, f1, fmt, type ParamKey } from "@/lib/coaching";
 import { LogoBox, Logo } from "./Logo";
 import { CountUp } from "./CountUp";
 import { ScoreRing } from "./ScoreRing";
+import { site } from "@/config/site";
 
 export function Hero() {
   const [prio, setPrio] = useState<ParamKey | null>(null);
@@ -13,7 +14,7 @@ export function Hero() {
   const rows = prio ? ranked : [...INST].sort((a, b) => b.oRaw - a.oRaw);
   const top = ranked[0];
   const topV = fitScore(top, sel);
-  const H = HOME.hero;
+  const nCrit = PARAMS.reduce((t, p) => t + RUB[p.k].length, 0);
 
   return (
     <section className="relative isolate overflow-hidden">
@@ -26,25 +27,25 @@ export function Hero() {
         <div className="animate-fade-up">
           <p className="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/[.04] py-1 pl-2 pr-3.5 text-[11px] font-medium text-slate-600 backdrop-blur">
             <span className="pulse-dot h-1.5 w-1.5 rounded-full bg-emerald-400" />
-            {tpl(H.badge)}
+            Updated {site.checked} · {INST.length} institutes · {nCrit} checks each
           </p>
           <h1 className="mt-5 text-[2rem] font-semibold leading-[1.08] tracking-[-0.03em] sm:text-[2.7rem] lg:text-[3.2rem]">
-            {H.title} <span className="gradient-text">{H.titleHighlight}</span>
+            Pick the right CAT coaching <span className="gradient-text">before you pay a rupee.</span>
           </h1>
           <p className="mt-4 max-w-md text-[15px] leading-relaxed text-slate-600">
-            {H.lede}
+            Honest scores out of 10 for results, faculty, mocks, doubt support and more, built from what institutes publish and what students say.
           </p>
 
           <div className="mt-6 flex flex-wrap items-center gap-2.5">
-            <Link href="/#scores" className="btn btn-primary h-10 px-5">{H.primaryButton}</Link>
-            <Link href="/compare" className="btn btn-glass h-10 px-5">{H.secondaryButton}</Link>
-            <button type="button" onClick={() => window.dispatchEvent(new Event("open-palette"))} className="btn btn-ghost hidden h-10 sm:inline-flex">
+            <Link href="/#scores" className="btn btn-primary h-10 px-5">See the scorecard</Link>
+            <Link href="/compare" className="btn btn-glass h-10 px-5">Compare side by side</Link>
+            {/* <button type="button" onClick={() => window.dispatchEvent(new Event("open-palette"))} className="btn btn-ghost hidden h-10 sm:inline-flex">
               Search <kbd className="rounded border border-white/10 px-1.5 py-0.5 text-[10px] text-slate-500">Ctrl K</kbd>
-            </button>
+            </button> */}
           </div>
 
           <div className="mt-9" role="group" aria-label="What matters most to you">
-            <p className="text-[11px] font-semibold uppercase tracking-[0.14em] text-slate-500">{H.prioLabel}</p>
+            <p className="text-[11px] font-semibold uppercase tracking-[0.14em] text-slate-500">I care most about</p>
             <div className="mt-2.5 flex flex-wrap gap-2">
               {HERO_PRIO.map(([k, label]) => (
                 <button key={k} type="button" aria-pressed={prio === k} onClick={() => setPrio(prio === k ? null : k)}
@@ -54,7 +55,7 @@ export function Hero() {
               ))}
             </div>
             <p className="mt-2.5 min-h-5 text-[13px] text-slate-500" aria-live="polite">
-              {prio ? <>Best match: <b className="text-white">{top.name}</b> · {f1(topV)}/10</> : H.prioHint}
+              {prio ? <>Best match: <b className="text-white">{top.name}</b> · {f1(topV)}/10</> : "Tap one and the leaderboard re-orders for you."}
             </p>
           </div>
         </div>

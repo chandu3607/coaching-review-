@@ -1,11 +1,21 @@
 "use client";
 import { useRouter } from "next/navigation";
 import { useEffect, useMemo, useRef, useState } from "react";
-import { INST, NAV, f1 } from "@/lib/coaching";
+import { INST, f1 } from "@/lib/coaching";
 import { Logo } from "./Logo";
 
 type Item = { id: string; label: string; hint: string; href: string; inst?: (typeof INST)[number] };
-const PAGES: Item[] = NAV.palette;
+const PAGES: Item[] = [
+  { id: "home", label: "Home", hint: "Page", href: "/" },
+  { id: "scores", label: "Scorecard", hint: "Section", href: "/#scores" },
+  { id: "claims", label: "Claims vs reality", hint: "Section", href: "/#results" },
+  { id: "q", label: "Five questions to ask", hint: "Section", href: "/#questions" },
+  { id: "fit", label: "Find my fit", hint: "Tool", href: "/#fit" },
+  { id: "compare", label: "Compare institutes side by side", hint: "Tool", href: "/compare" },
+  { id: "insights", label: "Insights — all ten areas", hint: "Page", href: "/insights" },
+  { id: "method", label: "How we score", hint: "Page", href: "/methodology" },
+  { id: "review", label: "Submit a review", hint: "Page", href: "/submit-review" },
+];
 
 export function CommandPalette() {
   const router = useRouter();

@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { CLOSE, HOME, INST, MENTOR_KIND, QUESTIONS, fmt } from "@/lib/coaching";
+import { CLOSE, INST, MENTOR_KIND, QUESTIONS, fmt } from "@/lib/coaching";
 import { BACKING_COLOR } from "./Claims";
 import { LogoBox } from "./Logo";
 import { SectionHeading } from "./SectionHeading";
@@ -16,7 +16,7 @@ function Row({ I, tag, tagColor, val }: { I: (typeof INST)[number]; tag: string;
 const dim = (t: string) => <span className="font-normal text-slate-400">{t}</span>;
 
 export function Questions() {
-  const plus = new Set(INST.filter((I) => /\+/.test(I.claimTxt)).map((I) => I.id as string));
+  const plus = new Set(["cl", "iq", "pw"]);
   const topPct = (I: (typeof INST)[number]) => (I.pct.length ? Math.max(...I.pct) : 0);
   const closeCol: Record<string, string> = { closest: "#10b981", close: "#3ba4f0", little: "#94a3b8", harder: "#f43f5e", basic: "#4a566e" };
 
@@ -27,11 +27,12 @@ export function Questions() {
     INST.map((I) => <Row key={I.id} I={I} tag={CLOSE[I.mocks.close]} tagColor={closeCol[I.mocks.close]} val={I.mocks.full ? `${I.mocks.full}${I.mocks.sect ? ` + ${I.mocks.sect}` : ""}` : dim("—")} />),
     [...INST].sort((a, b) => (b.mentor.n || 0) - (a.mentor.n || 0)).map((I) => <Row key={I.id} I={I} tag={MENTOR_KIND[I.id]} tagColor={I.mentor.n ? "#f59e0b" : "#4a566e"} val={I.mentor.n ? `${I.mentor.n} sessions` : dim("—")} />),
   ];
+  const titles = ["Has anyone checked the 99+ count?", "Lead faculty: highest published percentile", "Doubts: hours and stated reply time", "Mock series and how close to CAT", "One-on-one mentoring"];
 
   return (
     <section id="questions" className="scroll-mt-20 bg-slate-50 py-14 sm:py-16">
       <div className="container-x">
-        <SectionHeading n="05" eyebrow={HOME.questions.eyebrow} title={HOME.questions.title} lede={HOME.questions.lede} />
+        <SectionHeading n="05" eyebrow="Five questions" title="Five questions to ask before you pay" lede="Each answer comes straight from what the eight institutes publish." />
         <div className="mt-10 grid gap-5 lg:grid-cols-2">
           {QUESTIONS.map((q, k) => (
             <article key={q.t} className={`card p-6 ${k === 4 ? "lg:col-span-2" : ""}`}>
@@ -42,7 +43,7 @@ export function Questions() {
                   <p className="mt-2 text-sm leading-relaxed text-slate-600 sm:text-base">{q.s}</p>
                 </div>
                 <div className={k === 4 ? "" : "mt-5"}>
-                  <p className="mb-1 text-xs font-semibold uppercase tracking-wider text-slate-400">{q.panel}</p>
+                  <p className="mb-1 text-xs font-semibold uppercase tracking-wider text-slate-400">{titles[k]}</p>
                   <ul className="divide-y divide-slate-100">{panels[k]}</ul>
                 </div>
               </div>
@@ -50,8 +51,8 @@ export function Questions() {
           ))}
         </div>
         <div className="mt-10 flex flex-col items-start justify-between gap-4 rounded-3xl bg-ink p-8 text-white sm:flex-row sm:items-center">
-          <p className="text-xl font-extrabold tracking-tight sm:text-2xl">{HOME.questions.closing}</p>
-          <Link href="/#scores" className="btn btn-primary">{HOME.questions.closingButton}</Link>
+          <p className="text-xl font-extrabold tracking-tight sm:text-2xl">Ask these five before you pay.</p>
+          <Link href="/#scores" className="btn btn-primary">Back to the scorecard ↑</Link>
         </div>
       </div>
     </section>

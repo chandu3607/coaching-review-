@@ -1,12 +1,12 @@
 "use client";
 import { useState } from "react";
-import { INST, REVIEW_FORM, type InstId } from "@/lib/coaching";
+import { INST, type InstId } from "@/lib/coaching";
 import { Logo } from "./Logo";
 
-const ASPECTS = REVIEW_FORM.aspects;
-const YEARS = REVIEW_FORM.years;
-const MODES = REVIEW_FORM.modes;
-const RECS = REVIEW_FORM.recommend;
+const ASPECTS: [string, string][] = [["fac", "Faculty"], ["moc", "Mocks"], ["dou", "Doubt solving"], ["mat", "Study material"]];
+const YEARS = ["CAT 2027", "CAT 2026", "CAT 2025", "Earlier"];
+const MODES = ["Online live", "Classroom", "Recorded / self-paced", "Test series only"];
+const RECS = ["Yes", "It depends", "No"];
 
 function Step({ n, title, note, children }: { n: string; title: string; note?: string; children: React.ReactNode }) {
   return (

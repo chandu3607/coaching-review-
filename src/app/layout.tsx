@@ -1,7 +1,7 @@
 import type { Metadata, Viewport } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
-import { site } from "@/lib/coaching";
+import { site } from "@/config/site";
 import { SiteHeader } from "@/components/SiteHeader";
 import { SiteFooter } from "@/components/SiteFooter";
 import { DisclosureBar } from "@/components/DisclosureBar";
@@ -14,7 +14,7 @@ const geistMono = localFont({ src: "./fonts/GeistMonoVF.woff", variable: "--font
 export const metadata: Metadata = {
   metadataBase: new URL(site.url),
   title: { default: `${site.name} — ${site.tagline}`, template: `%s · ${site.name}` },
-  description: site.metaDescription,
+  description: "Eight CAT coachings scored out of 10 in ten areas — results, faculty, mocks, doubts and more — using what institutes publish and what students say.",
 };
 export const viewport: Viewport = { themeColor: "#0a0b10" };
 

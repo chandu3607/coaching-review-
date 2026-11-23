@@ -1,15 +1,15 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
-import { BY, CHANNELS, CLOSE, INST, PAGES, TAKE, tpl, type Institute } from "@/lib/coaching";
+import { BY, CHANNELS, CLOSE, INST, TAKE, type Institute } from "@/lib/coaching";
 import { SectionHeading } from "@/components/SectionHeading";
 import { HBars } from "@/components/HBars";
 import { LogoBox } from "@/components/Logo";
 import { ClaimBars, TrendChart } from "@/components/Claims";
 import { ScoreStrip } from "@/components/ScoreStrip";
+import { site } from "@/config/site";
 
-const P = PAGES.insights;
-export const metadata: Metadata = { title: P.metaTitle };
+export const metadata: Metadata = { title: "Insights — all ten areas in detail" };
 
 const Band = ({ id, children, alt = false }: { id?: string; children: React.ReactNode; alt?: boolean }) => (
   <section id={id} className={`scroll-mt-20 py-12 sm:py-14 ${alt ? "bg-surface" : ""}`}><div className="container-x">{children}</div></section>
@@ -23,7 +23,11 @@ const Table = ({ head, children }: { head: string[]; children: React.ReactNode }
 
 export default function Insights() {
   const topPct = (I: Institute) => (I.pct.length ? Math.max(...I.pct) : 0);
-  const rhythm = P.rhythm;
+  const rhythm: [string, number[], string][] = [
+    ["cr", [1, 1, 1, 1, 1, 0, 0], "2 hrs each weekday evening (7:30–9:30 PM)"],
+    ["ro", [2, 2, 2, 2, 2, 2, 2], "2 classes a day, 7 days a week (from a 2024 batch review)"],
+    ["ti", [0, 1, 0, 1, 0, 1, 0], "3 classes a week (Online-Flexi)"],
+  ];
   const mk = INST.filter((I) => I.mocks.full);
   const pra = ["iq", "cr", "im", "cl", "ti", "ro", "pw", "eg"].map((id) => {
     const I = BY[id as keyof typeof BY], p = I.practice;
@@ -38,10 +42,10 @@ export default function Insights() {
         <div className="absolute -right-20 -top-20 -z-10 h-96 w-96 rounded-full bg-brand-600/30 blur-3xl" />
         <div className="container-x grid items-center gap-10 lg:grid-cols-[1.2fr_.8fr]">
           <div>
-            <p className="eyebrow !text-brand-300">{P.eyebrow}</p>
-            <h1 className="mt-2 text-3xl font-extrabold tracking-tight sm:text-5xl">{P.title}</h1>
-            <p className="mt-5 max-w-xl text-base text-slate-600">{tpl(P.lede)}</p>
-            <Link href="/methodology" className="btn btn-glass mt-6">{P.button}</Link>
+            <p className="eyebrow !text-brand-300">Insights</p>
+            <h1 className="mt-2 text-3xl font-extrabold tracking-tight sm:text-5xl">All ten areas, in detail</h1>
+            <p className="mt-5 max-w-xl text-base text-slate-600">Every chart uses what the eight institutes publish, checked in {site.checked}. Each section ends with the scores for that area, and our scoring method is on its own page.</p>
+            <Link href="/methodology" className="btn btn-glass mt-6">How we score →</Link>
           </div>
           <div className="relative aspect-[4/3] overflow-hidden rounded-3xl ring-1 ring-white/15"><Image src="/images/insights.jpg" alt="Rendered still life: a magnifying glass enlarging a score heatmap printed on a sheet" fill priority sizes="40vw" className="object-cover" /></div>
         </div>
@@ -81,7 +85,7 @@ export default function Insights() {
                 <span />{["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"].map((d) => <span key={d} className="text-center font-semibold text-slate-500">{d}</span>)}<span />
                 {rhythm.map(([id, days, t]) => (
                   <div key={id} className="contents">
-                    <span className="font-semibold">{BY[id].short}</span>
+                    <span className="font-semibold">{BY[id as keyof typeof BY].short}</span>
                     {days.map((v, i) => <span key={i} className={`grid h-7 place-items-center rounded-md font-bold ${v === 2 ? "bg-brand-600 text-white" : v ? "bg-brand-200" : "bg-slate-100"}`}>{v === 2 ? "×2" : ""}</span>)}
                     <span className="text-slate-500">{t}</span>
                   </div>

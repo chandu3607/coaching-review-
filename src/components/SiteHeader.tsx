@@ -2,10 +2,16 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
-import { NAV, site } from "@/lib/coaching";
+import { site } from "@/config/site";
 import { ScrollProgress } from "./ScrollProgress";
 
-const links = NAV.header;
+const links = [
+  { href: "/#scores", label: "Scorecard" },
+  { href: "/compare", label: "Compare" },
+  { href: "/insights", label: "Insights" },
+  { href: "/methodology", label: "Method" },
+  { href: "/submit-review", label: "Review" },
+];
 
 export function SiteHeader() {
   const path = usePathname();
@@ -35,7 +41,7 @@ export function SiteHeader() {
             <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.4" strokeLinecap="round" aria-hidden><circle cx="11" cy="11" r="7" /><path d="m20 20-3.5-3.5" /></svg>
             Search<kbd className="ml-3 rounded border border-white/10 px-1.5 py-0.5 text-[10px]">Ctrl K</kbd>
           </button>
-          <Link href={NAV.headerCta.href} className="btn btn-primary hidden h-8 md:inline-flex">{NAV.headerCta.label}</Link>
+          <Link href="/#fit" className="btn btn-primary hidden h-8 md:inline-flex">Find my fit</Link>
           <button type="button" onClick={openSearch} aria-label="Search" className="btn btn-ghost h-8 w-8 !px-0 sm:hidden"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.4" strokeLinecap="round" aria-hidden><circle cx="11" cy="11" r="7" /><path d="m20 20-3.5-3.5" /></svg></button>
           <button type="button" className="btn btn-ghost h-8 md:hidden" aria-expanded={open} aria-controls="mobile-nav" onClick={() => setOpen((v) => !v)}>{open ? "Close" : "Menu"}</button>
         </div>
@@ -46,7 +52,7 @@ export function SiteHeader() {
         <nav id="mobile-nav" className="border-t border-white/[.06] md:hidden" aria-label="Mobile">
           <div className="container-x grid gap-1 py-3">
             {links.map((l) => <Link key={l.href} href={l.href} className="rounded-xl px-3 py-2.5 text-sm font-medium text-slate-700 hover:bg-white/5">{l.label}</Link>)}
-            <Link href={NAV.headerCta.href} className="btn btn-primary mt-2 h-10">{NAV.headerCta.label}</Link>
+            <Link href="/#fit" className="btn btn-primary mt-2 h-10">Find my fit</Link>
           </div>
         </nav>
       )}

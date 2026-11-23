@@ -1,20 +1,21 @@
 import type { Metadata } from "next";
-import { BANDS, INST, PAGES, PARAMS, RUB, site, tpl } from "@/lib/coaching";
+import { INST, PARAMS, RUB } from "@/lib/coaching";
 import { RatingPill } from "@/components/ScoreBadge";
+import { site } from "@/config/site";
 
-const M = PAGES.methodology;
-export const metadata: Metadata = { title: M.metaTitle, description: M.metaDescription };
+export const metadata: Metadata = { title: "How we score", description: "Fixed rules behind every score, the same for all eight institutes." };
 
 export default function Methodology() {
+  const nCrit = PARAMS.reduce((t, p) => t + RUB[p.k].length, 0);
   return (
     <>
       <section className="bg-ink py-16 text-white sm:py-20">
         <div className="container-x">
-          <p className="eyebrow !text-brand-300">{M.eyebrow}</p>
-          <h1 className="mt-2 max-w-3xl text-3xl font-extrabold tracking-tight sm:text-4xl">{M.title}</h1>
-          <p className="mt-5 max-w-2xl text-base text-slate-600">{tpl(M.lede)}</p>
+          <p className="eyebrow !text-brand-300">Method</p>
+          <h1 className="mt-2 max-w-3xl text-3xl font-extrabold tracking-tight sm:text-4xl">How a score is built</h1>
+          <p className="mt-5 max-w-2xl text-base text-slate-600">Each area is scored out of 10 using fixed rules, which are all listed below. The same {nCrit} checks apply to every institute, including the one that runs this site. The overall score is a simple average of the ten.</p>
           <div className="mt-6 flex flex-wrap items-center gap-4 text-sm text-slate-600">
-            {BANDS.map(([v, l]) => (<span key={l} className="flex items-center gap-2"><RatingPill v={v} />{l}</span>))}
+            {([[8, "8 and above"], [6.5, "6.5 to 7.9"], [5, "5 to 6.4"], [4, "under 5"]] as const).map(([v, l]) => (<span key={l} className="flex items-center gap-2"><RatingPill v={v} />{l}</span>))}
           </div>
         </div>
       </section>
@@ -36,7 +37,7 @@ export default function Methodology() {
             ))}
           </div>
           <p className="mt-10 max-w-3xl text-sm text-slate-500">
-            {tpl(M.sources)} <a className="font-medium text-brand-600 underline" href={`mailto:${site.contactEmail}`}>{site.contactEmail}</a> · {INST.length} institutes covered.
+            Sources: each institute’s own course, results, faculty and app pages, and student reviews on Reddit and Careers360, as of {site.checked}. The figures are the institutes’ own, unless we say a CA firm checked them. The scores are not final and will change as institutes update their pages. Spotted an error? <a className="font-medium text-brand-600 underline" href={`mailto:${site.contactEmail}`}>{site.contactEmail}</a> · {INST.length} institutes covered.
           </p>
         </div>
       </section>
