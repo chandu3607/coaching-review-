@@ -29,7 +29,19 @@ function Scale({ label, value, onChange }: { label: string; value: number; onCha
   return (
     <div role="group" aria-label={`${label}, out of 10`} className="flex flex-wrap gap-1.5">
       {Array.from({ length: 10 }, (_, i) => i + 1).map((n) => (
-        <button key={n} type="button" aria-pressed={value === n} onClick={() => onChange(value === n ? 0 : n)} className={`h-9 w-9 rounded-lg text-sm font-semibold tabular-nums transition ${value === n ? "bg-brand-600 text-white shadow-sm" : "bg-slate-100 text-slate-700 hover:bg-brand-100"}`}>{n}</button>
+        <button
+          key={n}
+          type="button"
+          aria-pressed={value === n}
+          onClick={() => onChange(value === n ? 0 : n)}
+          className={`h-9 w-9 rounded-lg text-sm font-semibold tabular-nums transition ${
+            n <= value
+              ? "bg-brand-600 text-white shadow-sm"
+              : "bg-slate-200 text-slate-700 hover:bg-brand-100"
+          }`}
+        >
+          {n}
+        </button>
       ))}
     </div>
   );
